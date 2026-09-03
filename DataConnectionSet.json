@@ -1,0 +1,27 @@
+[
+  {
+    "ConnectionString": "A8EWtZKgNeaHNIxuWmme724WM2pWd3lWYJqjdQAMf2XedwVU2ZTW73AU7l+pbnLj0JU97AvoXVYKJPhakeDMfvswcimBSs0MwXlB4MXWkAI=",
+    "DataBaseType": "6f9b2f11-4f6a-43db-9b65-bbd46872e09d",
+    "ID": "MySql1"
+  },
+  {
+    "ConnectionString": "9qRUAuWctyBR9nrZUTHIFfseAdbAiBUqRGPBZflfDpE=",
+    "DataBaseType": "3abc35b0-dff8-45a1-82b7-a1261ab98b44",
+    "ID": "Odbc1"
+  },
+  {
+    "ConnectionString": "1hewRP7I+QGLSAnM5m/yfpQmrU3I3czZ09WVzd9tneJU/3tvjcppC6tBVnja5+HDDZSe54nWiqgDTAvTU7UBswHRaRyuW9L7GhCpfaFWkqHHkuN3vserVfgaepNfs4lBSj4yzD2hnW8dnY2K2ZwvqB/sE9TcG6QXY1khk5d6Wm4=",
+    "DataBaseType": "347a1ed5-25f0-4a4b-846c-8d69cedcf33d",
+    "ID": "SqlServer1"
+  },
+  {
+    "ConnectionString": "FT9by55dxG0BYYO47KNrR+Q4BsLYGe/rVnDWzJUScYWZj5gUKPS3MtCmD1fkVqpGChfyQ89ogmO1rrxVx2b5iP07W+0wAdaDOin7FJiAFTg=",
+    "DataBaseType": "cc38d1c8-62bd-4c51-bac1-f5fccb9e5606",
+    "ID": "PostgreSQL1"
+  },
+  {
+    "ConnectionString": "IF8sFdNWUSrvVLXtVyY8cUjUKQzsc2KJR+eLrFaNiumDgDPWsVvvIdFJaHjJNV/SQTdN62IcTjr6fJUz1Vp3NywJ+nrQ95/OE2Kd2XYiVjqRuQ5WVPhTuAceUlNdRvw2hwMCWt9ridq1E6rYN3RhG+MsoAKTUIIVkHAiMDMx8GM=",
+    "DataBaseType": "6f9b2f11-4f6a-43db-9b65-bbd46872e09d",
+    "ID": "MySql2"
+  }
+]

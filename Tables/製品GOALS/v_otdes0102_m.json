@@ -1,0 +1,115 @@
+{
+  "Name": "v_otdes0102_m",
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "character",
+      "MaxLength": -1,
+      "Name": "tableid",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "character",
+      "MaxLength": -1,
+      "Name": "cancelflag",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "numeric",
+      "MaxLength": -1,
+      "Name": "intimestp",
+      "ColumnType": "System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "numeric",
+      "MaxLength": -1,
+      "Name": "uptimestp",
+      "ColumnType": "System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "character",
+      "MaxLength": -1,
+      "Name": "userid",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "character",
+      "MaxLength": -1,
+      "Name": "uppgid",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "character",
+      "MaxLength": -1,
+      "Name": "inuserid",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "character",
+      "MaxLength": -1,
+      "Name": "inpgid",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "character",
+      "MaxLength": -1,
+      "Name": "kdashi_no",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "character",
+      "MaxLength": -1,
+      "Name": "skairai_mno",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "character",
+      "MaxLength": -1,
+      "Name": "kban",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "character",
+      "MaxLength": -1,
+      "Name": "kata",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "character",
+      "MaxLength": -1,
+      "Name": "bkn_mno",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.FormulaColumnSaveData, ServerDesignerCommon",
+      "Formula": "=trim([kata])&trim([kban])",
+      "Name": "艇種_艇番",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "ExternalDatabaseInfo": {
+    "DataBaseType": "6db454c0-531c-4395-9122-921a18942902",
+    "ConnectionId": "PostgreSQL1",
+    "SourceTableName": "v_otdes0102_m",
+    "SourceTableSchema": "orcluser",
+    "CreateViewSql": " SELECT otdes0102.tableid,\n    otdes0102.cancelflag,\n    otdes0102.intimestp,\n    otdes0102.uptimestp,\n    otdes0102.userid,\n    otdes0102.uppgid,\n    otdes0102.inuserid,\n    otdes0102.inpgid,\n    otdes0102.kdashi_no,\n    otdes0102.skairai_mno,\n    otdes0102.kban,\n    otdes0102.kata,\n    otdes0102.bkn_mno\n   FROM (otdes0102\n     LEFT JOIN otdes0100 ON ((otdes0100.kdashi_no = otdes0102.kdashi_no)))\n  WHERE (otdes0100.bu_kbn = ANY (ARRAY['M'::bpchar, 'N'::bpchar]));",
+    "ViewInfo": {
+      "ViewName": "v_otdes0102_m",
+      "IsUpdatable": true,
+      "QueryColumns": []
+    }
+  },
+  "Indexes": []
+}

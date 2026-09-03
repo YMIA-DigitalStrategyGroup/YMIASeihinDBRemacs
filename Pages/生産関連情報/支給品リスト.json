@@ -1,0 +1,440 @@
+{
+  "Rows": {
+    "Count": 37
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "1,1": "艇種",
+    "1,6": "艇番",
+    "1,13": "検索",
+    "1,18": "クリア",
+    "2,48": "支給品リスト",
+    "2,54": "BAA34",
+    "4,2": "NO",
+    "4,4": "品名",
+    "4,19": "規格寸法",
+    "4,38": "発送元",
+    "4,41": "運送便",
+    "4,44": "数量",
+    "4,46": "数量",
+    "4,48": "入荷予定日",
+    "4,53": "入荷日"
+  },
+  "AttachInfos": {
+    "1,13": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "SubConditions": [
+                    {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                        "cellLocations": [
+                          {
+                            "SerializeProperty": "=支給品リスト!B3"
+                          }
+                        ]
+                      },
+                      "compareType": 1
+                    },
+                    {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                        "cellLocations": [
+                          {
+                            "SerializeProperty": "=支給品リスト!G3"
+                          }
+                        ]
+                      },
+                      "compareType": 1
+                    }
+                  ]
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "v_baa34",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "SubConditions": [
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "v_baa34",
+                            "ColumnName": "A34050",
+                            "GUID": "c14e8beb-1188-43eb-aa93-0c94a55133d9"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=支給品リスト!B3"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "v_baa34",
+                            "ColumnName": "A34060",
+                            "GUID": "80b233f9-96b4-4fcf-aa30-8d3ba26f04ec"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=支給品リスト!G3"
+                          }
+                        }
+                      ]
+                    },
+                    "ID": "8428fff8af6546159bdd8f242953fc6e"
+                  }
+                ],
+                "ID": "bcdf2d9e-9cce-407c-b827-32ef67abb497"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                    "MessageFormula": "艇種・艇番を入力してください！！"
+                  }
+                ],
+                "ID": "da1eba45-6c61-4c0c-a3db-8a65c6442268"
+              }
+            ]
+          }
+        ],
+        "Text": "検索",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,18": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "v_baa24",
+            "ID": "7e20724c6f0b43fd86e5f579e5a7f3c8"
+          }
+        ],
+        "Text": "クリア",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "2,1": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "2,6": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "4,1": {
+      "ListViewInfo": {
+        "Name": "リストビュー1",
+        "TableName": "v_baa34",
+        "RowIndex": 4,
+        "ColumnIndex": 1,
+        "RowCount": 30,
+        "ColumnCount": 58,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
+        "CommitType": 1,
+        "DoNotLoadDataWhenLoadPage": true
+      }
+    },
+    "5,2": {
+      "BindingInfo": {
+        "TableName": "v_baa34",
+        "ColumnName": "A34040",
+        "GUID": "1373b614-47f1-4f4f-92ef-eda591925dc5"
+      }
+    },
+    "5,4": {
+      "BindingInfo": {
+        "TableName": "v_baa34",
+        "ColumnName": "A34070",
+        "GUID": "66279960-80c8-4533-96af-8538f9c5147c"
+      }
+    },
+    "5,19": {
+      "BindingInfo": {
+        "TableName": "v_baa34",
+        "ColumnName": "A34080",
+        "GUID": "901590b5-df39-4c00-bf1b-509037789ccb"
+      }
+    },
+    "5,38": {
+      "BindingInfo": {
+        "TableName": "v_baa34",
+        "ColumnName": "A34170",
+        "GUID": "3a146efa-4d52-44e6-bcf1-ab20eb6399f7"
+      }
+    },
+    "5,41": {
+      "BindingInfo": {
+        "TableName": "v_baa34",
+        "ColumnName": "A34180",
+        "GUID": "632c2367-3067-42a2-8096-7b015ebd81c3"
+      }
+    },
+    "5,44": {
+      "BindingInfo": {
+        "TableName": "v_baa34",
+        "ColumnName": "A34090",
+        "GUID": "db9f4173-f341-46f3-8a18-8cc5a023b5f9"
+      }
+    },
+    "5,48": {
+      "BindingInfo": {
+        "TableName": "v_baa34",
+        "ColumnName": "A34110",
+        "GUID": "2500e18c-8867-42f2-b403-b4fe8470ee39"
+      }
+    },
+    "5,53": {
+      "BindingInfo": {
+        "TableName": "v_baa34",
+        "ColumnName": "A34120",
+        "GUID": "58620302-35db-4c36-8d19-dd36302be68b"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "FontFamily": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "FontFamily": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "Background": 0,
+        "FontFamily": 1
+      },
+      {
+        "Background": 0,
+        "FontFamily": 1,
+        "Formatter": 5
+      },
+      {
+        "Background": 6,
+        "FontFamily": 1,
+        "Formatter": 7,
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 5
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 7
+      },
+      {
+        "Formatter": 8,
+        "HorizontalAlignment": 9
+      },
+      {
+        "FontFamily": 1,
+        "HorizontalAlignment": 9
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 10,
+        "ShrinkToFit": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 4 -50",
+        "Body",
+        "Background 1 0",
+        "Center",
+        "black",
+        "[AUTO]General",
+        "Accent 4 80",
+        "@",
+        "0_);[Red](0)",
+        "Right",
+        "yyyy/m/d"
+      ],
+      "Borders": [
+        {
+          "Color": 4
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "1,6": 0,
+      "1,7": 1,
+      "1,8": 1,
+      "1,9": 2,
+      "1,10": 2,
+      "1,11": 3,
+      "1,12": 2,
+      "1,13": 4,
+      "1,14": 2,
+      "1,15": 2,
+      "1,16": 2,
+      "1,17": 2,
+      "1,18": 5,
+      "1,19": 2,
+      "1,20": 2,
+      "1,21": 2,
+      "2,1": 6,
+      "2,2": 7,
+      "2,3": 7,
+      "2,4": 7,
+      "2,5": 7,
+      "2,6": 6,
+      "2,7": 7,
+      "2,8": 8,
+      "2,9": 2,
+      "2,10": 2,
+      "2,11": 2,
+      "2,12": 2,
+      "2,13": 2,
+      "2,14": 2,
+      "2,15": 2,
+      "2,16": 2,
+      "2,17": 2,
+      "2,18": 2,
+      "2,19": 2,
+      "2,20": 2,
+      "2,21": 2,
+      "2,48": 9,
+      "2,49": 2,
+      "2,50": 10,
+      "2,51": 10,
+      "2,52": 10,
+      "2,53": 10,
+      "2,54": 10,
+      "2,55": 10,
+      "4,19": 9,
+      "4,48": 9,
+      "4,53": 9,
+      "5,2": 11,
+      "5,19": 2,
+      "5,38": 2,
+      "5,41": 2,
+      "5,44": 12,
+      "5,45": 2,
+      "5,46": 2,
+      "5,47": 2,
+      "5,48": 13,
+      "5,53": 13
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "1,1,1,5",
+    "1,6,1,3",
+    "2,1,1,5",
+    "2,6,1,3",
+    "1,13,2,4",
+    "1,18,2,4",
+    "6,1,28,58",
+    "5,2,1,2",
+    "5,4,1,15",
+    "5,19,1,19",
+    "5,38,1,3",
+    "5,41,1,3",
+    "5,44,1,4",
+    "5,48,1,5",
+    "5,53,1,5",
+    "4,2,1,2",
+    "4,4,1,15",
+    "4,19,1,19",
+    "4,38,1,3",
+    "4,41,1,3",
+    "4,44,1,4",
+    "4,48,1,5",
+    "4,53,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "製品情報DB",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//9bLvdss2L6gIo4A60Dzduvrz3jCEICjPgrvg4pBre7lLPSHtj+fuj2EY04G60ohEfMyhMp+fw+C6P3azU+HvwK2rPF6jhjbaAmO2JCVSkD5G4uoqWOndhAXacFZ5+t+dRGfM9LumktXKUK2gn5lF1Re4PE/O8atfaeW3kHE+UobP4p1kce43iuHUINIb/yRsW4Iit+GGDnD5oI1HVbQ4DeNYsrPS3wEIo/EqMar+zVs1y1Av2HngITZ6sWYTQP6JXqsLzd84NY6K8QoBF/XC1qk2GNVOKXJTXfO8uehmBnpRuwdrVVwEy/hKnchGxlpjMFiJi4m3lDIi5ugxOcrAmWpXIdo6r9Y12Y2YfJ/Fr9eSO1FuoO5nSi0l5MAtUz4bc6/oIESJUeKCxcMgRI+drG9/muQvoxk1mtU/lSWGPz2kRFcPoNLOMkVGEbX1Lwjd1XXJ69xrRZfP7YaXXw7MIAzohcW87itQbDmsG2z1cd79V3AfoSxY8UPmpgnH4//k7oyYZRzVE0JlU8YI6YxkHJ8A+7UmjOntngvKj0VewtOAbuZZJdH37aXc9KPVQNCVm+sgDAJMyiw3+FCW9nDJGgpbGcYbZmxcNkwnsbghftsFVEYo6EjaExfts2DIg3fyJLh9GdKCCi1Os5hCRqYhq/GgIphLXVs+g6Iddurc8A9BkaCKRaCp0boOSga9OhVPmysNessrNPZkYXKSGM1J3inPtZxEBiuYbBgEB9hAn4ceFvzgV74zy3KLIfYgHlFE3J4e+h4mwdOYrs83jTZJTrgZdZq7QGzwS4yBjKgWGWQH/fr8NMgpBSfGCWg6PlyNI73ycCkJqqItZxy/zc3Uo4pXNJA0PFnJ86pqjjCv3R9HhupeMSq9AHwCygQyMrGT9fqNXujv8vgJa+wKgOFSfQ==|920
