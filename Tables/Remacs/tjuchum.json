@@ -1,28 +1,41 @@
 {
-  "Name": "tbuhink",
+  "Name": "tjuchum",
   "Columns": [
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "Required": true,
-      "Unique": true,
-      "AutoIncrement": true,
-      "DatabaseColumnType": "bigint",
-      "MaxLength": -1,
-      "Name": "ID",
-      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "bigint",
-      "MaxLength": -1,
-      "Name": "PARENT_ID",
-      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 8,
+      "Name": "SHAIN_CODE",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "JUCHU_NBR",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "RIREKI_SEQ_NBR",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "BUNRUI_KUBUN",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
-      "MaxLength": 15,
+      "MaxLength": 30,
       "Name": "SEIBAN",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
@@ -30,20 +43,26 @@
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
       "MaxLength": 30,
-      "Name": "KOBAN",
+      "Name": "KIKAI_KOBAN",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "Required": true,
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 10,
-      "Name": "KO_KOBAN",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "MEISAI_NBR",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "KOJI_KUBUN",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
       "MaxLength": 20,
       "Name": "HINBAN",
@@ -51,74 +70,17 @@
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "Required": true,
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 255,
-      "Name": "PATH",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "int",
-      "MaxLength": -1,
-      "Name": "SORT_ORDER",
-      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "int",
-      "MaxLength": -1,
-      "Name": "KOTEI_PATTERN_NBR",
-      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
       "MaxLength": 50,
-      "Name": "KOSEI_NAME",
+      "Name": "HINMEI",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "bigint",
-      "MaxLength": -1,
-      "Name": "YOSAN",
-      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "date",
-      "MaxLength": -1,
-      "Name": "NOKI",
-      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
-      "MaxLength": 20,
-      "Name": "ZUBAN",
+      "MaxLength": 200,
+      "Name": "BIKO",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "int",
-      "MaxLength": -1,
-      "Name": "VERSION",
-      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 5,
-      "Name": "NINSHIKI_NBR",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "int",
-      "MaxLength": -1,
-      "Name": "LIST_NO",
-      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
@@ -129,66 +91,6 @@
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 50,
-      "Name": "ZAISHITSU",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 50,
-      "Name": "KIKAKU",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 50,
-      "Name": "MAKER",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 50,
-      "Name": "HYOMEN_SHORI",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 10,
-      "Name": "BUNRUI",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 8,
-      "Name": "TANTOSHA_CODE",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DefaultValue": false,
-      "Required": true,
-      "DatabaseColumnType": "tinyint",
-      "MaxLength": -1,
-      "Name": "Z_FLAG",
-      "ColumnType": "System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DefaultValue": 0.0,
-      "Required": true,
-      "DatabaseColumnType": "decimal",
-      "MaxLength": -1,
-      "Name": "SHOYO_RYO",
-      "ColumnType": "System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "decimal",
       "MaxLength": -1,
       "Name": "SURYO",
@@ -196,27 +98,58 @@
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "TANI_CODE",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "YOTEI_GENKA_TANKA",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "YOTEI_GENKA_KINGAKU",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "GENKA_TANKA",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "GENKA_KINGAKU",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "decimal",
       "MaxLength": -1,
-      "Name": "ZAIKO_HIKIATE",
+      "Name": "HANBAI_TANKA",
       "ColumnType": "System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DefaultValue": false,
-      "Required": true,
-      "DatabaseColumnType": "tinyint",
+      "DatabaseColumnType": "decimal",
       "MaxLength": -1,
-      "Name": "SHIKYUHIN_FLAG",
-      "ColumnType": "System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "Name": "HANBAI_KINGAKU",
+      "ColumnType": "System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DefaultValue": 0,
-      "Required": true,
       "DatabaseColumnType": "int",
       "MaxLength": -1,
-      "Name": "YUSHOSHIKYUHIN",
+      "Name": "TSUKA_CODE",
       "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -225,7 +158,7 @@
       "Required": true,
       "DatabaseColumnType": "tinyint",
       "MaxLength": -1,
-      "Name": "FUYO_FLAG",
+      "Name": "SHUKKA_TAISHO_FLAG",
       "ColumnType": "System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -234,52 +167,31 @@
       "Required": true,
       "DatabaseColumnType": "tinyint",
       "MaxLength": -1,
-      "Name": "TSUIKA_KOSEI_FLAG",
+      "Name": "SAKUZU_CHECK_FLAG",
       "ColumnType": "System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DefaultValue": false,
-      "Required": true,
-      "DatabaseColumnType": "tinyint",
-      "MaxLength": -1,
-      "Name": "KOBAI_KUBUN",
-      "ColumnType": "System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 5,
-      "Name": "KURADASHI_KOTEI",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "int",
-      "MaxLength": -1,
-      "Name": "LINE",
-      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
       "MaxLength": 2000,
-      "Name": "BIKO",
+      "Name": "SAKUZU_BIKO",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 10,
-      "Name": "HENKO_NAIYO",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "DefaultValue": false,
+      "Required": true,
+      "DatabaseColumnType": "tinyint",
+      "MaxLength": -1,
+      "Name": "KANRYO_FLAG",
+      "ColumnType": "System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 50,
-      "Name": "COMMENT",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "DatabaseColumnType": "date",
+      "MaxLength": -1,
+      "Name": "KOJO_SHUKKA_DATE",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
@@ -313,17 +225,18 @@
   "ExternalDatabaseInfo": {
     "DataBaseType": "6db454c0-531c-4395-9122-921a18942902",
     "ConnectionId": "RemacsDB",
-    "SourceTableName": "tbuhink",
+    "SourceTableName": "tjuchum",
     "SourceTableSchema": ""
   },
   "PrimaryKey": [
-    "ID"
+    "JUCHU_NBR",
+    "MEISAI_NBR"
   ],
   "Relations": [
     {
       "PrimaryTable": "ymia_v_mhinban_lastest",
       "PrimaryColumn": "HINBAN",
-      "ForeignTable": "tbuhink",
+      "ForeignTable": "tjuchum",
       "ForeignColumn": "HINBAN",
       "IsDetailTableRelation": false
     }

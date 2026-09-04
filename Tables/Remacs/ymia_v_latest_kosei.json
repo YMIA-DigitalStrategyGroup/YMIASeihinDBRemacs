@@ -43,7 +43,7 @@
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DefaultValue": 0.0000,
+      "DefaultValue": 0.0,
       "Required": true,
       "DatabaseColumnType": "decimal",
       "MaxLength": -1,
@@ -141,7 +141,7 @@
   ],
   "ExternalDatabaseInfo": {
     "DataBaseType": "6db454c0-531c-4395-9122-921a18942902",
-    "ConnectionId": "MySql2",
+    "ConnectionId": "RemacsDB",
     "SourceTableName": "ymia_v_latest_kosei",
     "SourceTableSchema": "",
     "CreateViewSql": "select `m1`.`ID` AS `ID`,`m1`.`ROOT_HINBAN` AS `ROOT_HINBAN`,`m1`.`HINBAN` AS `HINBAN`,`m1`.`KAITEI_SEQ_NBR` AS `KAITEI_SEQ_NBR`,`m1`.`PATH` AS `PATH`,`m1`.`SURYO` AS `SURYO`,`m1`.`KOBAI_KUBUN` AS `KOBAI_KUBUN`,`m1`.`KURADASHI_KOTEI` AS `KURADASHI_KOTEI`,`m1`.`LINE` AS `LINE`,`m1`.`LIST_NO` AS `LIST_NO`,`m1`.`SEKKEI_HENKO_NO_FROM` AS `SEKKEI_HENKO_NO_FROM`,`m1`.`SEKKEI_HENKO_NO_TO` AS `SEKKEI_HENKO_NO_TO`,`m1`.`SORT_ORDER` AS `SORT_ORDER`,`m1`.`SELECT_CHECK` AS `SELECT_CHECK`,`m1`.`TOROKU_TIMESTAMP` AS `TOROKU_TIMESTAMP`,`m1`.`TOROKUSHA_CODE` AS `TOROKUSHA_CODE`,`m1`.`KOSHIN_TIMESTAMP` AS `KOSHIN_TIMESTAMP`,`m1`.`KOSHINSHA_CODE` AS `KOSHINSHA_CODE` from `mkosei` `m1` where (`m1`.`KAITEI_SEQ_NBR` = (select max(`m2`.`KAITEI_SEQ_NBR`) from `mkosei` `m2` where ((`m2`.`ROOT_HINBAN` = `m1`.`ROOT_HINBAN`) and (`m2`.`HINBAN` = `m1`.`HINBAN`) and (`m2`.`PATH` = `m1`.`PATH`))))",

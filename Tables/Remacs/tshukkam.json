@@ -1,35 +1,70 @@
 {
-  "Name": "ymia_v_mtanka_min",
+  "Name": "tshukkam",
   "Columns": [
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "Required": true,
-      "Unique": true,
-      "DatabaseColumnType": "bigint",
+      "DatabaseColumnType": "int",
       "MaxLength": -1,
-      "Name": "TANKA_SEQ",
-      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "Name": "JUCHU_NBR",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "JUCHU_MEISAI_NBR",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "SEQ_NBR",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 15,
+      "Name": "OKURIJO_NBR",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "date",
+      "MaxLength": -1,
+      "Name": "SHUKKA_JISSEKI_DATE",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "decimal",
+      "MaxLength": -1,
+      "Name": "SHUKKA_SU",
+      "ColumnType": "System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
       "MaxLength": 20,
-      "Name": "HINBAN",
+      "Name": "GOSHA",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "int",
       "MaxLength": -1,
-      "Name": "KIGYO_CODE",
+      "Name": "UNSOGAISHA_CODE",
       "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
-      "MaxLength": 8,
-      "Name": "TORIHIKISAKI_CODE",
+      "MaxLength": 2000,
+      "Name": "BIKO",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -64,17 +99,14 @@
   "ExternalDatabaseInfo": {
     "DataBaseType": "6db454c0-531c-4395-9122-921a18942902",
     "ConnectionId": "RemacsDB",
-    "SourceTableName": "ymia_v_mtanka_min",
-    "SourceTableSchema": "",
-    "CreateViewSql": "select `m1`.`TANKA_SEQ` AS `TANKA_SEQ`,`m1`.`HINBAN` AS `HINBAN`,`m1`.`KIGYO_CODE` AS `KIGYO_CODE`,`m1`.`TORIHIKISAKI_CODE` AS `TORIHIKISAKI_CODE`,`m1`.`TOROKU_TIMESTAMP` AS `TOROKU_TIMESTAMP`,`m1`.`TOROKUSHA_CODE` AS `TOROKUSHA_CODE`,`m1`.`KOSHIN_TIMESTAMP` AS `KOSHIN_TIMESTAMP`,`m1`.`KOSHINSHA_CODE` AS `KOSHINSHA_CODE` from `mtanka` `m1` where (`m1`.`TANKA_SEQ` = (select min(`m2`.`TANKA_SEQ`) from `mtanka` `m2` where (`m2`.`HINBAN` = `m1`.`HINBAN`)))",
-    "ViewInfo": {
-      "ViewName": "ymia_v_mtanka_min",
-      "IsUpdatable": true,
-      "QueryColumns": []
-    }
+    "SourceTableName": "tshukkam",
+    "SourceTableSchema": ""
   },
   "PrimaryKey": [
-    "TANKA_SEQ"
+    "JUCHU_NBR",
+    "JUCHU_MEISAI_NBR",
+    "SEQ_NBR"
   ],
+  "Relations": [],
   "Indexes": []
 }

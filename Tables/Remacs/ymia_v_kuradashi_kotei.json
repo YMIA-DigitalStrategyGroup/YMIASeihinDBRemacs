@@ -51,7 +51,7 @@
   ],
   "ExternalDatabaseInfo": {
     "DataBaseType": "6db454c0-531c-4395-9122-921a18942902",
-    "ConnectionId": "MySql2",
+    "ConnectionId": "RemacsDB",
     "SourceTableName": "ymia_v_kuradashi_kotei",
     "SourceTableSchema": "",
     "CreateViewSql": "select `t`.`SEIBAN` AS `製番`,coalesce(`t`.`KOTEI_PATTERN_NBR`,'-') AS `工程パターンID`,coalesce(`mp`.`KOTEI_PATTERN_NAME`,'-') AS `工程パターン名`,`t`.`KURADASHI_KOTEI` AS `倉出工程コード`,coalesce(`kn`.`KOTEI_NAME`,'-') AS `倉出工程名`,coalesce(cast(min(`jm`.`KAISHI_DATE`) as char charset utf8mb4),'-') AS `倉出予定日` from (((`tbuhink` `t` left join `mkotei` `mp` on((`t`.`KOTEI_PATTERN_NBR` = `mp`.`KOTEI_PATTERN_NBR`))) left join `mkoteiname` `kn` on((`t`.`KURADASHI_KOTEI` = `kn`.`KOTEI_CODE`))) left join `tbuhinjm` `jm` on((`t`.`ID` = `jm`.`BUHIN_KOSEI_ID`))) where ((`t`.`KURADASHI_KOTEI` is not null) and (`t`.`KURADASHI_KOTEI` <> '')) group by `t`.`SEIBAN`,`t`.`KOTEI_PATTERN_NBR`,`mp`.`KOTEI_PATTERN_NAME`,`t`.`KURADASHI_KOTEI`,`kn`.`KOTEI_NAME`",
