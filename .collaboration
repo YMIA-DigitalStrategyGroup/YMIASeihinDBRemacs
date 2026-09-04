@@ -683,5 +683,15 @@
     },
     "LockDateTime": "2026-09-04T16:30:10.7538152+09:00",
     "ModuleType": 7
+  },
+  {
+    "ModuleName": "TableView/vw_tmitsumori",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-04T16:40:58.4891989+09:00",
+    "ModuleType": 23
   }
 ]
