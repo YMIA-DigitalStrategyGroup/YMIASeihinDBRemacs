@@ -189,43 +189,133 @@
   },
   {
     "ModuleName": "TableView/ymia_v_kuradashi_tanaban_list",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-04T16:29:15.971724+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\Remacs\\ymia_v_kuradashi_tanaban_list.json"
+    ]
   },
   {
     "ModuleName": "TableView/ymia_v_kuradashi_seiban_list",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-04T16:29:15.9717118+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\Remacs\\ymia_v_kuradashi_seiban_list.json"
+    ]
   },
   {
     "ModuleName": "TableView/ymia_v_kuradashi_kotei_select",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-04T16:29:15.9717217+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\Remacs\\ymia_v_kuradashi_kotei_select.json"
+    ]
   },
   {
     "ModuleName": "TableView/ymia_v_kuradashi_kotei",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-04T16:29:15.9717344+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\Remacs\\ymia_v_kuradashi_kotei.json"
+    ]
   },
   {
     "ModuleName": "TableView/ymia_v_kuradashi_buhin",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-04T16:29:15.9716823+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\Remacs\\ymia_v_kuradashi_buhin.json"
+    ]
   },
   {
     "ModuleName": "TableView/ymia_v_mhinban_lastest",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-04T16:29:15.9717151+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\Remacs\\ymia_v_mhinban_lastest.json"
+    ]
   },
   {
     "ModuleName": "TableView/ymia_v_latest_kosei",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-04T16:29:15.9717411+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\Remacs\\ymia_v_latest_kosei.json"
+    ]
   },
   {
     "ModuleName": "Table/tbuhink",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-04T16:29:15.9717196+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Remacs\\tbuhink.json"
+    ]
   },
   {
     "ModuleName": "TableView/ymia_v_mtanka_min",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-04T16:29:15.9717285+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\Remacs\\ymia_v_mtanka_min.json"
+    ]
   },
   {
     "ModuleName": "TableView/ymia_v_seiban_hatchu_delivery_status",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-04T16:29:15.971737+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\Remacs\\ymia_v_seiban_hatchu_delivery_status.json"
+    ]
   },
   {
     "ModuleName": "Pages/ビルトイン ページ",
@@ -517,7 +607,16 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "ModuleType": 25
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-04T16:29:15.970067+09:00",
+    "ModuleType": 25,
+    "ToRemoveFiles": [
+      "DataConnectionSet.json"
+    ]
   },
   {
     "ModuleName": "Upload",
