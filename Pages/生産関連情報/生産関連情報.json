@@ -95,7 +95,7 @@
                         "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                         "cellLocations": [
                           {
-                            "SerializeProperty": "=生産関連情報_Remacs!B3"
+                            "SerializeProperty": "=生産関連情報!B3"
                           }
                         ]
                       },
@@ -107,7 +107,7 @@
                         "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                         "cellLocations": [
                           {
-                            "SerializeProperty": "=生産関連情報_Remacs!G3"
+                            "SerializeProperty": "=生産関連情報!G3"
                           }
                         ]
                       },
@@ -131,7 +131,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!B3"
+                            "SerializeProperty": "=生産関連情報!B3"
                           }
                         },
                         {
@@ -143,7 +143,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!G3"
+                            "SerializeProperty": "=生産関連情報!G3"
                           }
                         }
                       ]
@@ -167,7 +167,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!B3"
+                            "SerializeProperty": "=生産関連情報!B3"
                           }
                         },
                         {
@@ -179,7 +179,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!G3"
+                            "SerializeProperty": "=生産関連情報!G3"
                           }
                         }
                       ]
@@ -203,7 +203,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!B3"
+                            "SerializeProperty": "=生産関連情報!B3"
                           }
                         },
                         {
@@ -215,7 +215,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!G3"
+                            "SerializeProperty": "=生産関連情報!G3"
                           }
                         }
                       ]
@@ -239,7 +239,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!B3"
+                            "SerializeProperty": "=生産関連情報!B3"
                           }
                         },
                         {
@@ -251,7 +251,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!G3"
+                            "SerializeProperty": "=生産関連情報!G3"
                           }
                         }
                       ]
@@ -261,7 +261,7 @@
                     "Disabled": true
                   }
                 ],
-                "ID": "d4638efe-8c7f-4118-9935-66d8e1c0835a"
+                "ID": "ac5d24d4-2043-4acb-bdd0-6a53a5bbbda4"
               },
               {
                 "CommandList": [
@@ -270,7 +270,7 @@
                     "MessageFormula": "艇種・艇番を入力してください！！"
                   }
                 ],
-                "ID": "3b994bdf-f85f-4dbb-a2ab-99ebc99c5538"
+                "ID": "86b183da-3e88-4cdb-ac8d-444bc995a02d"
               }
             ],
             "Disabled": true
@@ -291,7 +291,7 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=生産関連情報_Remacs!B3"
+                    "SerializeProperty": "=生産関連情報!B3"
                   }
                 },
                 {
@@ -304,7 +304,7 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=生産関連情報_Remacs!G3"
+                    "SerializeProperty": "=生産関連情報!G3"
                   }
                 },
                 {
@@ -317,7 +317,7 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=生産関連情報_Remacs!K3"
+                    "SerializeProperty": "=生産関連情報!K3"
                   }
                 },
                 {
@@ -330,7 +330,7 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=生産関連情報_Remacs!Q3"
+                    "SerializeProperty": "=生産関連情報!Q3"
                   }
                 },
                 {
@@ -343,7 +343,7 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=生産関連情報_Remacs!T3"
+                    "SerializeProperty": "=生産関連情報!T3"
                   }
                 },
                 {
@@ -356,7 +356,7 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=生産関連情報_Remacs!Z3"
+                    "SerializeProperty": "=生産関連情報!Z3"
                   }
                 }
               ]
@@ -378,7 +378,7 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=生産関連情報_Remacs!B3"
+                    "SerializeProperty": "=生産関連情報!B3"
                   }
                 },
                 {
@@ -390,7 +390,7 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=生産関連情報_Remacs!G3"
+                    "SerializeProperty": "=生産関連情報!G3"
                   }
                 }
               ]
@@ -414,7 +414,7 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=生産関連情報_Remacs!B3"
+                    "SerializeProperty": "=生産関連情報!B3"
                   }
                 },
                 {
@@ -427,7 +427,7 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=生産関連情報_Remacs!G3"
+                    "SerializeProperty": "=生産関連情報!G3"
                   }
                 },
                 {
@@ -440,7 +440,7 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=生産関連情報_Remacs!K3"
+                    "SerializeProperty": "=生産関連情報!K3"
                   }
                 },
                 {
@@ -453,7 +453,7 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=生産関連情報_Remacs!Q3"
+                    "SerializeProperty": "=生産関連情報!Q3"
                   }
                 },
                 {
@@ -466,7 +466,7 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=生産関連情報_Remacs!T3"
+                    "SerializeProperty": "=生産関連情報!T3"
                   }
                 },
                 {
@@ -479,7 +479,7 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=生産関連情報_Remacs!Z3"
+                    "SerializeProperty": "=生産関連情報!Z3"
                   }
                 }
               ]
@@ -502,37 +502,37 @@
               {
                 "TargetCells": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=生産関連情報_Remacs!B3"
+                  "SerializeProperty": "=生産関連情報!B3"
                 }
               },
               {
                 "TargetCells": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=生産関連情報_Remacs!G3"
+                  "SerializeProperty": "=生産関連情報!G3"
                 }
               },
               {
                 "TargetCells": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=生産関連情報_Remacs!K3"
+                  "SerializeProperty": "=生産関連情報!K3"
                 }
               },
               {
                 "TargetCells": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=生産関連情報_Remacs!Q3"
+                  "SerializeProperty": "=生産関連情報!Q3"
                 }
               },
               {
                 "TargetCells": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=生産関連情報_Remacs!T3"
+                  "SerializeProperty": "=生産関連情報!T3"
                 }
               },
               {
                 "TargetCells": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=生産関連情報_Remacs!Z3"
+                  "SerializeProperty": "=生産関連情報!Z3"
                 }
               }
             ]
@@ -647,21 +647,21 @@
               {
                 "TargetCells": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=生産関連情報_Remacs!BM3"
+                  "SerializeProperty": "=生産関連情報!BM3"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=生産関連情報_Remacs!C6"
+                  "SerializeProperty": "=生産関連情報!C6"
                 }
               },
               {
                 "TargetCells": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=生産関連情報_Remacs!BR3"
+                  "SerializeProperty": "=生産関連情報!BR3"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=生産関連情報_Remacs!I6"
+                  "SerializeProperty": "=生産関連情報!I6"
                 }
               }
             ]
@@ -774,7 +774,7 @@
                         "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                         "cellLocations": [
                           {
-                            "SerializeProperty": "=生産関連情報_Remacs!BM3"
+                            "SerializeProperty": "=生産関連情報!BM3"
                           }
                         ]
                       },
@@ -786,7 +786,7 @@
                         "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                         "cellLocations": [
                           {
-                            "SerializeProperty": "=生産関連情報_Remacs!BR3"
+                            "SerializeProperty": "=生産関連情報!BR3"
                           }
                         ]
                       },
@@ -810,7 +810,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!BP3"
+                            "SerializeProperty": "=生産関連情報!BP3"
                           }
                         },
                         {
@@ -822,7 +822,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!BR3"
+                            "SerializeProperty": "=生産関連情報!BR3"
                           }
                         }
                       ]
@@ -844,7 +844,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!BP3"
+                            "SerializeProperty": "=生産関連情報!BP3"
                           }
                         },
                         {
@@ -856,7 +856,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!BR3"
+                            "SerializeProperty": "=生産関連情報!BR3"
                           }
                         }
                       ]
@@ -879,7 +879,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!BP3"
+                            "SerializeProperty": "=生産関連情報!BP3"
                           }
                         },
                         {
@@ -891,7 +891,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!BR3"
+                            "SerializeProperty": "=生産関連情報!BR3"
                           }
                         }
                       ]
@@ -914,7 +914,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!BP3"
+                            "SerializeProperty": "=生産関連情報!BP3"
                           }
                         },
                         {
@@ -926,7 +926,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!BR3"
+                            "SerializeProperty": "=生産関連情報!BR3"
                           }
                         }
                       ]
@@ -949,7 +949,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!BP3"
+                            "SerializeProperty": "=生産関連情報!BP3"
                           }
                         },
                         {
@@ -961,7 +961,7 @@
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産関連情報_Remacs!BR3"
+                            "SerializeProperty": "=生産関連情報!BR3"
                           }
                         }
                       ]
@@ -970,7 +970,7 @@
                     "Disabled": true
                   }
                 ],
-                "ID": "9870ecf2-1d33-4335-81d3-a9988ab46383"
+                "ID": "a1437af2-a7b5-45bd-bee3-1687d696e8c5"
               },
               {
                 "CommandList": [
@@ -979,7 +979,7 @@
                     "MessageFormula": "艇種・艇番を入力してください！！"
                   }
                 ],
-                "ID": "c5215ea7-7c82-4ee5-a0f5-062900437e1b"
+                "ID": "b6609739-ad5c-46fe-bfed-de5b87323a34"
               }
             ]
           }
@@ -1260,7 +1260,7 @@
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "ValueFormula": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=生産関連情報_Remacs!L43"
+              "SerializeProperty": "=生産関連情報!L43"
             },
             "IsOpenInNewTab": true
           }
@@ -1284,7 +1284,7 @@
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "ValueFormula": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=生産関連情報_Remacs!Z43"
+              "SerializeProperty": "=生産関連情報!Z43"
             },
             "IsOpenInNewTab": true
           }
@@ -2390,7 +2390,7 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=生産関連情報_Remacs!B3"
+                        "SerializeProperty": "=生産関連情報!B3"
                       }
                     ]
                   },
@@ -2402,7 +2402,7 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=生産関連情報_Remacs!G3"
+                        "SerializeProperty": "=生産関連情報!G3"
                       }
                     ]
                   },
@@ -2426,7 +2426,7 @@
                       },
                       "Value": {
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=生産関連情報_Remacs!B3"
+                        "SerializeProperty": "=生産関連情報!B3"
                       }
                     },
                     {
@@ -2438,7 +2438,7 @@
                       },
                       "Value": {
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=生産関連情報_Remacs!G3"
+                        "SerializeProperty": "=生産関連情報!G3"
                       }
                     }
                   ]
@@ -2460,7 +2460,7 @@
                       },
                       "Value": {
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=生産関連情報_Remacs!B3"
+                        "SerializeProperty": "=生産関連情報!B3"
                       }
                     },
                     {
@@ -2472,7 +2472,7 @@
                       },
                       "Value": {
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=生産関連情報_Remacs!G3"
+                        "SerializeProperty": "=生産関連情報!G3"
                       }
                     }
                   ]
@@ -2494,7 +2494,7 @@
                       },
                       "Value": {
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=生産関連情報_Remacs!B3"
+                        "SerializeProperty": "=生産関連情報!B3"
                       }
                     },
                     {
@@ -2506,7 +2506,7 @@
                       },
                       "Value": {
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=生産関連情報_Remacs!G3"
+                        "SerializeProperty": "=生産関連情報!G3"
                       }
                     }
                   ]
@@ -2514,7 +2514,7 @@
                 "ID": "12ec03d126404ab197f0629493a0fff8"
               }
             ],
-            "ID": "7da27ddb-3ad3-4aaa-b150-551f4dacf4f0"
+            "ID": "0e04d444-586e-472d-97dd-289c88eadd0b"
           }
         ]
       }
@@ -2540,4 +2540,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//rYgMdToF2oDhnGbOizUfXVJWFJJ/4f9jjKwPrbNpGLqeZyICQaIbq+Rryd/aMePGZ8PmULWtkmyy5Gmj7KVFYvYAyhzdKioan2hHgLr/jJhJ0IgxBQulW15N6JJfEsdJqMA1QI1ejMXbrr6d3U1cAQ91sOCjuijhak4mbDVwj9C8fsI+b6OhIoQZrggV8tZYAOmjtAbTfpzvRTTAHKuL1VL29KGYBxajPXBZDYM6BNYo5UKXbf1Q8vVqwpJWpD1GriaxRuFr53hsLmjZlQ1Vl0P6FfyxKUUf6LDC2N7Kq8yRp0gPH5P/yVXKcd2C/zIooQlTFo59BXBfExM7K06tZqTYWVBYqbMphaIEeLvM/o7UMqcOreEJox9AZvRLD6nZDpNfruJ8I6De2/baC4ZT3CJ2bV8xwruCnOcL4VvAkGVSlPDcBkwkSWV+yjYhgLSefKREmHM5a8JkZBtylLl54QdTfKC9d1OzJZ7viDKMuhuwBT/bwAQV4dW8heWq3NNEB+zPl6vOJ/rL7/L03vCAlGGqx9efI78MpDvDAZbuchagT0SmpsVBaWP2S0KEL3FNC/6bgbZUIDmtIkyiD8Pf9Fy5y3U8Z6jEsJOm1stYD9XJ2H71rKdXBDatdudX8ZZSPJKk8Hh3uTgnJIzK1EO27nQoW6vYAzQUe4+FjGk1RC0u6xuPUZkG2FmrwDYetOj56coBsLb7RxGdwwl7fCI+WBnTQZz7O4AYYo0kx9UnllVovxPJqkOdfUb1TlngFGwRAHKBL+BRrUxbmhC/LbEcInquAWdcapTXir51wakdddMlrXZBRwwBH3qsrd9FRz7rOIH/ApFGANz5PZyFDIduWPm0y8ZJFmSUVtnBhxTj8AfGskLz1G/VMakaqUWFKgjUYS6iouFw73YYvzRVdbcKAg==|920
+}//xuaOtRpFiQZxDbE6tFUwJ8sxCtv//kCHLCEgCH8jY/aPzrflzUQgH56SDq1HVe/WPIFCx0a8sgh6ekNh4TpEltqTGNzWOTIcqgrBuR8TZNCXWF1RPw5UKEMl4kzv1yZXd1LKdVoJVV1QvuImt3r/Z8DKfPQkFXNbTvuZeZJkj1O1Aem7B2VqnDQP+PUIbmnQQ0lL6dNWZhE+GlyJxncktyHU/pcClRX/06JkdMH2KRM96N+5LmD/eBLyBlt7OzOkdQRJR6zYdzDfmtVLvVMmN3bFtEsfwa7BLjLR5Cp79I6TrLtvLOx1ruxxhzBYqyFKMrDfPNnV9F16rxs3gsmNJ8m8ka1XerSgOhY67zuU5MZ+RBJbUSVuhNx7zZg6P5aRyHWStfsOm/nlT00qRZgKqKXucgejQF9CUosHpfZ2kvx6SlnPALk66NLpq0qwTN9wZl4BDu2I0IMGBzMzsDVcLV6TWnmPANSf03rqMvCm+ILqknUTA3ufq4/jrlJeHzABuCjQ9zJ1xFbfsduJr+ZMpKJ8yKro/lT7d/bcDw0XTYWqiauJGr8l1/g3DouDx6A8de3Z0dgrrRm2UXEw8im2UVQuPIUZGcWZTJiaVRfZCSYu52jY/alfkTSQVk6W6iqex5g87MJEiQ0UrWeSITHiJAojsmBQG7NzlFyl2C4ueAiS7hR7ZqBA/+MzaMTPtw1tNQFsbmuc9iX57dLriV6edlMIKbJ763nmAzIDHM8VQAPl9kAEG5VafmqfBJvctf+Bgx9CMFpl8S2P6A1UKcJfDxv88kyYsChARkrkb9rTUOWJINdkWYczJnL8dNNAwQNhwoOUEN65psAEu4lrRfDVCWGqINEW3zfxtt9S+jYCP/v6UXjDwYNz+Dc13UCwmqILgeFEOPIG6/e/E9T1zatcHA==|920
