@@ -337,7 +337,17 @@
   },
   {
     "ModuleName": "PCPage/進捗状況確認",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-08T16:03:41.9008194+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\進捗状況確認\\進捗状況確認.json",
+      "Pages\\進捗状況確認\\進捗状況確認.rd"
+    ]
   },
   {
     "ModuleName": "Pages/出荷予定情報",
