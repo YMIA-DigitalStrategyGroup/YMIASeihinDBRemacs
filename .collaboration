@@ -369,7 +369,17 @@
   },
   {
     "ModuleName": "PCPage/出荷予定情報",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-11T15:44:36.492683+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\出荷予定情報\\出荷予定情報.json",
+      "Pages\\出荷予定情報\\出荷予定情報.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/検査合格情報",
