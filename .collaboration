@@ -213,29 +213,11 @@
   },
   {
     "ModuleName": "TableView/ymia_v_latest_kosei",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-09-11T16:24:30.8302754+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\Remacs\\ymia_v_latest_kosei.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "Table/tbuhink",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-09-11T16:24:30.8302985+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Remacs\\tbuhink.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "TableView/ymia_v_mtanka_min",
@@ -355,17 +337,7 @@
   },
   {
     "ModuleName": "PCPage/進捗状況確認",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-09-08T16:03:41.9008194+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\進捗状況確認\\進捗状況確認.json",
-      "Pages\\進捗状況確認\\進捗状況確認.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/出荷予定情報",
@@ -373,31 +345,11 @@
   },
   {
     "ModuleName": "PCPage/出荷実績情報",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-09-11T14:52:45.3451578+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\出荷予定情報\\出荷実績情報.json",
-      "Pages\\出荷予定情報\\出荷実績情報.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/出荷予定情報",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-09-11T15:44:36.492683+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\出荷予定情報\\出荷予定情報.json",
-      "Pages\\出荷予定情報\\出荷予定情報.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/検査合格情報",
@@ -581,29 +533,11 @@
   },
   {
     "ModuleName": "Table/tjuchu",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-09-11T16:24:30.8303244+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Remacs\\tjuchu.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/tjuchum",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-09-11T16:24:30.8303146+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Remacs\\tjuchum.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/tshukka",
@@ -615,16 +549,7 @@
   },
   {
     "ModuleName": "TableView/vw_tmitsumori",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-09-11T16:24:30.830308+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\Remacs\\vw_tmitsumori.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "Table/tshodan",
@@ -644,12 +569,6 @@
   },
   {
     "ModuleName": "Table/ymia_v_seihindb",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-09-11T13:46:45.4495236+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }

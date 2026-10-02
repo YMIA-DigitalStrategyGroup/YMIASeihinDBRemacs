@@ -35,37 +35,37 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
-            "TargetTableName": "v_baa24",
+            "TargetTableName": "ymia_v_seihindb",
             "SqlCondition": {
               "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
               "SubConditions": [
                 {
                   "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                   "ColumnBindingInfo": {
-                    "TableName": "v_baa24",
-                    "ColumnName": "A24080",
-                    "GUID": "4ad82e08-a48f-4730-85dd-f169c52a9d61"
+                    "TableName": "ymia_v_seihindb",
+                    "ColumnName": "KISHU",
+                    "GUID": "702be636-9868-4d9a-8d47-154c751374e2"
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=出荷実績情報!B3"
+                    "SerializeProperty": "=出荷実績情報!AU3"
                   }
                 },
                 {
                   "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                   "ColumnBindingInfo": {
-                    "TableName": "v_baa24",
-                    "ColumnName": "A24090",
-                    "GUID": "3d75cdc5-6329-4d00-9475-bd28943ff3b7"
+                    "TableName": "ymia_v_seihindb",
+                    "ColumnName": "KIBAN",
+                    "GUID": "85e3892c-fea6-4ad4-b882-f75309a6d130"
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=出荷実績情報!G3"
+                    "SerializeProperty": "=出荷実績情報!AZ3"
                   }
                 }
               ]
             },
-            "ID": "d6dd54da5d194415b4dfe326fcd9ba0d"
+            "ID": "7e19d9db9f86494496f8a0ed8affeadd"
           }
         ],
         "Text": "検索",
@@ -133,23 +133,11 @@
     "4,1": {
       "ListViewInfo": {
         "Name": "リストビュー1",
-        "TableName": "v_baa24",
+        "TableName": "ymia_v_seihindb",
         "RowIndex": 4,
         "ColumnIndex": 1,
         "RowCount": 36,
         "ColumnCount": 73,
-        "OrderByCondition": {
-          "OrderByColumns": [
-            {
-              "ColumnBindingInfo": {
-                "TableName": "v_baa24",
-                "ColumnName": "A24090",
-                "GUID": "5144034c-aa96-46fe-8774-2a31552001f0"
-              },
-              "Order": 1
-            }
-          ]
-        },
         "TopCondition": null,
         "ListViewStyleName": "_RS_Medium2",
         "CurrentRowChangedCommandList": [
@@ -189,86 +177,65 @@
     },
     "5,2": {
       "BindingInfo": {
-        "TableName": "v_baa24",
-        "ColumnName": "A24080",
-        "GUID": "c49acce7-4a79-41ca-b065-f55817143cbf"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "KISHU",
+        "GUID": "9de72b96-07cd-4d6b-aa6e-2e043c712ce2"
       }
     },
     "5,7": {
       "BindingInfo": {
-        "TableName": "v_baa24",
-        "ColumnName": "A24090",
-        "GUID": "dde388b3-a718-42a8-8e34-60e2c57a1374"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "KIBAN",
+        "GUID": "a333a0ba-ea2e-4b33-b57f-929103770b2a"
       }
     },
     "5,10": {
       "BindingInfo": {
-        "TableName": "v_baa24",
-        "ColumnName": "A24260",
-        "GUID": "bcd48f75-9b54-41ae-8328-e74743b86785"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "ENGINE_KATASHIKI",
+        "GUID": "bd9d9915-058c-438b-a098-4ca5dde899e5"
       }
     },
     "5,17": {
       "BindingInfo": {
-        "TableName": "v_baa24",
-        "ColumnName": "A24300",
-        "GUID": "09229cc4-87a5-479d-8c97-8f28f1c956ae"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "ENGINE_NO",
+        "GUID": "ff4f78f5-4d8d-4197-8d69-e2a85c483292"
       }
     },
     "5,21": {
       "BindingInfo": {
-        "TableName": "v_baa24",
-        "ColumnName": "A24320",
-        "GUID": "01ff7a38-fe5c-493c-a9fb-e195557bb373"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "DRIVE_KATASHIKI",
+        "GUID": "28d6f3e5-38a8-447e-b77e-b69c1c4c15e4"
       }
     },
     "5,28": {
       "BindingInfo": {
-        "TableName": "v_baa24",
-        "ColumnName": "A24330",
-        "GUID": "1c91870c-8016-4c94-b2a6-72d86c2a4555"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "DRIVE_NO",
+        "GUID": "e22b7d68-185d-4d4b-9355-0561ccfed444"
       }
     },
     "5,32": {
       "BindingInfo": {
-        "TableName": "v_baa24",
-        "ColumnName": "A24240",
-        "GUID": "5991273e-38e4-4ad0-bfc7-a7804a98c0ea"
-      }
-    },
-    "5,37": {
-      "BindingInfo": {
-        "TableName": "v_baa24",
-        "ColumnName": "A24110",
-        "GUID": "28b573f8-2494-4afb-80e8-22ef11598312"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "SHUKKA_DATE",
+        "GUID": "a4dbb581-82cb-4995-940b-40c6889bdbbf"
       }
     },
     "5,45": {
       "BindingInfo": {
-        "TableName": "v_baa24",
-        "ColumnName": "A24130",
-        "GUID": "277e99df-2bab-4bb1-b85a-17ebbb93063c"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "NONYUSAKI",
+        "GUID": "b642bd30-79cc-42f5-acd2-df06d3423219"
       }
     },
     "5,53": {
       "BindingInfo": {
-        "TableName": "v_baa24",
-        "ColumnName": "A24150",
-        "GUID": "81c409fb-efe6-4ae6-8ddc-574272b2361e"
-      }
-    },
-    "5,61": {
-      "BindingInfo": {
-        "TableName": "v_baa24",
-        "ColumnName": "A24170",
-        "GUID": "1e734162-a13b-41e7-bcd9-cc613246d9b7"
-      }
-    },
-    "5,67": {
-      "BindingInfo": {
-        "TableName": "v_baa24",
-        "ColumnName": "A24190",
-        "GUID": "11ac5fce-89dc-43f2-b103-ef26d0c1f4c8"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "NONYUSAKI_TANTOSHA",
+        "GUID": "0dc6ad52-53d0-40eb-8c01-71048004c688"
       }
     },
     "41,1": {
@@ -1710,33 +1677,33 @@
     "2,46,1,5",
     "1,13,2,4",
     "1,18,2,4",
-    "5,2,1,5",
-    "5,7,1,3",
-    "5,10,1,7",
-    "5,17,1,4",
-    "5,21,1,7",
-    "5,28,1,4",
-    "5,32,1,5",
-    "5,37,1,8",
-    "5,45,1,8",
-    "5,53,1,8",
     "6,1,34,73",
-    "5,61,1,6",
-    "5,67,1,6",
     "1,51,1,3",
     "2,51,1,3",
     "41,1,2,6",
+    "5,2,1,5",
     "4,2,1,5",
+    "5,7,1,3",
     "4,7,1,3",
+    "5,10,1,7",
     "4,10,1,7",
+    "5,17,1,4",
     "4,17,1,4",
+    "5,21,1,7",
     "4,21,1,7",
+    "5,28,1,4",
     "4,28,1,4",
+    "5,32,1,5",
     "4,32,1,5",
+    "5,37,1,8",
     "4,37,1,8",
+    "5,45,1,8",
     "4,45,1,8",
+    "5,53,1,8",
     "4,53,1,8",
+    "5,61,1,6",
     "4,61,1,6",
+    "5,67,1,6",
     "4,67,1,6"
   ],
   "PageInfo": {
@@ -1763,4 +1730,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//dl0g5KinZEKy1iUs1vhwHUcoipmi97lddk19LGb0oRSTNUPHY8qGK3PtVJdrvTWLsmZjAO/2C94ObN65Fw3FePu7iCf8OmsSnT1Yiu/eRaPBIGkx1J+l8pqNIXr84qvuJ3cCxNEyttifUmkOM8lO0ic+EhcAxCchmw7rePOiYYt/LMTwBgprLsE+o92dlNC/5M1KxYBDtLV4uH2GuvbMhTx/eBjjwaC0VUfuMAwmxd8xDi9zHHWIg2sN63X5kbvIyUZNbJcjy3zkNf+VrgvzvK317xWQwIto28GOjbUO62kHQKAwyP8JUX2hXoGRaSoIs2K3AuQ6aU9ufM+EPkWcdE9nq4pzzBsKvX0ua+glTWdQOIjN3nlkkCslz42jSANAd6CUPC7I08hfRTgA6TPUbm/J2cyQKNaVhUcBEzExQ/cUwKEQd6EnifL+aMn+H8VnMfo9sFXXhw8UGeDHWoClTOe3S2FYMttI9kYllla5Jd+DN58brEcfxswspyzaPVCuf5Eu8FKy8P1wo7MALf5hhcDfQwOfdbx0GK69nalqOp2GMxY7HV9O9knAYRmbO0c/2EQm2SJWgYcGn0UjsaFcyPuKgWC7t+FTW/mPCQ9nZlizn2dX9hyzi4cz/zVdt7twM4pHrRLN8z2xVEO89LbvgbyQFRi/5JD5H0Xe0D4CVqyHhxEtfXagCFvS1aUJ98kGekObUfTV2aMLcXzeplskEp2SC6zJFvnKPheIrAGT4CsfJ0BYzFfm0PhA1fw1S7YiHSSPq4Gqwri5Q/vD137c3XL04z5Q3Zn+/m8aP33+k+HBK8sRRlb8VESMo3gU4eLGQ71i9Wg6drwxwDKRAAhDU/ur+D3iXjapTHgEyDpPUHFFSEbTUqV3mx550y+pJRhgRtEDugqwDblsKIsYDQWwCg==|920
+}//BcObSeiwC/cM6CjLN5pqV3W2a2hW8an+sWU5sRnh3uaZhRAEjk8dMTp/ZyeYzq7gFWC5lkO4dhbo9pQCD5xioLLxxYOy7S7eHskeBVtAnvjHT4XfCzMI97vrliS/VrWnusf0uLiU0aDS41EIaxcht7XCFb5gnGuvIBKh+2LBodOl1NtmsdoAsvAcJzAvCSISgruXd61JP3SxFYvealYE5ZQmOop7K5vv7w883988XidDZeA8/17EYLFmeL1Lz5bifmFz++Ckp6zW2mSuAWNPDqsazfwa1a7dt73Jd187Jjp3jKUc3wL4U0ZJ0+km2+nHQe3xq2S9+4MGsx8FbdwRCt4R+kXzJPogMShdrn4ZmEm3+/4SgcbLUaDEDP/v5p9D0pV8RDzobKKHMy0Ba0xWZcWZxr9Rbzmyq/UvYyJn6G4FBnPRfKahYvvpm8Kr0oELRVQ4dSMf/QGu8a/Aay699A67jBOt4kkh/jk+RjIz0lvqpKUHiKeDJO+9dNzuYGq9sedjpxjXE+OYVEIq7Jec6nCFq8DJpEzVK1pnh2xEIvFDWlU5kW9ZrJxNL+iyZKrSsyEeM9y1O23MRBh+DTTztAqjx5JtwwdB9t9GJWIciXCTMLUSP+WRSZBUHOKOt8bYk+hSMdMAfZo4d7Z0jvVFc7S46ay6TQ4ws6mDzfu+yZESwL3qpfMQvn/nqBW2s18PrEYQVNemRdU9/EQRY1pXyrWb/Zhfilk2X8fjwwAmF0O6PE7JaTUK0gRZ0+yqchvfBsSviSTVbiWY04AZtlcU/EOz0BTTc5Uyj1FRdAodwpOZ+owhtGse/yWnsOaN4OuUlR+Odx69PhOfVdd+xKEZLWcKYUacRUoE+ZvgZ6FFhinmuXKYYUw2Brku+YokKjudFGkr7aRd8pDimNcNsoLInA==|920

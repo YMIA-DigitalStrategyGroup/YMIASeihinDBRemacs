@@ -179,6 +179,13 @@
     "46,62": "社内連絡事項",
     "46,75": "オーダーNO",
     "46,79": "請求NO",
+    "46,83": "A23170",
+    "46,84": "A23180",
+    "46,85": "A23190",
+    "46,86": "A23210",
+    "46,87": "A23220",
+    "46,88": "A23230",
+    "46,89": "A23240",
     "49,6": "送り先名",
     "49,39": "納入先名",
     "50,6": "送り先住所",
@@ -361,23 +368,11 @@
     "4,1": {
       "ListViewInfo": {
         "Name": "リストビュー1",
-        "TableName": "v_baa01",
+        "TableName": "ymia_v_seihindb",
         "RowIndex": 4,
         "ColumnIndex": 1,
         "RowCount": 17,
         "ColumnCount": 71,
-        "OrderByCondition": {
-          "OrderByColumns": [
-            {
-              "ColumnBindingInfo": {
-                "TableName": "v_baa01",
-                "ColumnName": "A01110",
-                "GUID": "44afff66-ca4f-492a-8f9b-e1cdada3754a"
-              },
-              "Order": 1
-            }
-          ]
-        },
         "TopCondition": null,
         "ListViewStyleName": "_RS_Medium2",
         "CurrentRowChangedCommandList": [
@@ -435,16 +430,16 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
-                    "TargetTableName": "v_baa22",
+                    "TargetTableName": "ymia_v_seihindb",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
                       "SubConditions": [
                         {
                           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                           "ColumnBindingInfo": {
-                            "TableName": "v_baa22",
-                            "ColumnName": "A22050",
-                            "GUID": "40a2f100-e767-41f8-a19c-d7a7aa040ec0"
+                            "TableName": "ymia_v_seihindb",
+                            "ColumnName": "KISHU",
+                            "GUID": "1ad60a9f-1817-40ed-abbf-c9fcb77b5a36"
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -454,9 +449,9 @@
                         {
                           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                           "ColumnBindingInfo": {
-                            "TableName": "v_baa22",
-                            "ColumnName": "A22060",
-                            "GUID": "71a2e20d-ba9a-4cd0-92bd-1c071fc56993"
+                            "TableName": "ymia_v_seihindb",
+                            "ColumnName": "KIBAN",
+                            "GUID": "2976f7b5-cbaf-4ddc-be79-a900cb8d71f5"
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -465,10 +460,10 @@
                         }
                       ]
                     },
-                    "ID": "9ac412066c6244aa8032ba35cd7590a9"
+                    "ID": "27f96c243f2944e7843249be72814ca2"
                   }
                 ],
-                "ID": "4cf34d23-2bce-421f-84cd-d3beb7ac5740"
+                "ID": "93652417-322d-48a2-97bb-1f9541af55d7"
               },
               {
                 "Condition": {
@@ -519,7 +514,7 @@
                     "ID": "b7848cf991d148d6b089a4c6748da01a"
                   }
                 ],
-                "ID": "6c365392-66d6-4138-83ec-34de9afd8563"
+                "ID": "702956be-3ed2-49e0-b0bc-9b53893c89e4"
               },
               {
                 "Condition": {
@@ -645,7 +640,7 @@
                     ]
                   }
                 ],
-                "ID": "94d3d188-85c0-4179-a425-8bb5cbb1ab23"
+                "ID": "5b9d23ad-8ee6-4744-b0e5-86c10a67e445"
               }
             ]
           }
@@ -658,81 +653,77 @@
         "DoNotLoadDataWhenLoadPage": true
       }
     },
+    "5,1": {
+      "NameUsedInJavaScript": "SHAIN_CODE"
+    },
     "5,2": {
       "BindingInfo": {
-        "TableName": "v_baa01",
-        "ColumnName": "A01100",
-        "GUID": "d561c65b-0444-4321-956f-2c66dad6fe20"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "KISHU",
+        "GUID": "7fe3c10e-17fe-44cc-b98e-63e648250aa5"
       }
     },
     "5,7": {
       "BindingInfo": {
-        "TableName": "v_baa01",
-        "ColumnName": "A01110",
-        "GUID": "4c1313b9-368a-4c76-9917-657969a32326"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "KIBAN",
+        "GUID": "fd25d623-1ab8-45c6-9011-4ae443bcb461"
       }
     },
     "5,10": {
       "BindingInfo": {
-        "TableName": "v_baa01",
-        "ColumnName": "A01120",
-        "GUID": "8519de5e-e4b4-4af8-83f7-bfecb880de10"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "SHIYO_CODE",
+        "GUID": "2c248670-bd16-4f51-bd9b-3d16948c83e7"
       }
     },
     "5,14": {
       "BindingInfo": {
-        "TableName": "v_baa01",
-        "ColumnName": "A01140",
-        "GUID": "9cb101fa-3b67-41a2-af25-a2ff536c6add"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "KENMEI",
+        "GUID": "bbe7c1eb-ac51-4e3a-8d75-89e1931b1c0c"
       }
     },
     "5,21": {
       "BindingInfo": {
-        "TableName": "v_baa01",
-        "ColumnName": "A01030",
-        "GUID": "6b07840e-3e2c-4cd5-b990-5fc7908d5378"
-      }
-    },
-    "5,25": {
-      "BindingInfo": {
-        "TableName": "v_baa01",
-        "ColumnName": "A01040",
-        "GUID": "5efe58cb-0489-4855-aece-8baa335e0aa1"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "SHODAN_JOKYO",
+        "GUID": "7fa65cfe-88f0-485b-923a-ffd6b3622ca1"
       }
     },
     "5,29": {
       "BindingInfo": {
-        "TableName": "v_baa01",
-        "ColumnName": "A01370",
-        "GUID": "dc2aeda3-7fdf-444c-b6e2-0fb07393f74f"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "KIBO_NOKI",
+        "GUID": "36bf6cb0-fd2b-4df4-9725-ffc7442d968d"
       }
     },
     "5,34": {
       "BindingInfo": {
-        "TableName": "v_baa01",
-        "ColumnName": "A01380",
-        "GUID": "e222e22d-7893-4436-adfa-d2f65cbddf03"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "SHUKKA_YOTEI_DATE",
+        "GUID": "f3fc4f75-d5ad-40ea-9dff-d978c7b97115"
       }
     },
     "5,44": {
       "BindingInfo": {
-        "TableName": "v_baa01",
-        "ColumnName": "A01350",
-        "GUID": "6b54625e-ca1b-42e0-a411-a1ac700d32d7"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "TORIHIKISAKI_CODE",
+        "GUID": "42d4bb02-893e-4336-b457-f3035f3ea2ca"
       }
     },
     "5,52": {
       "BindingInfo": {
-        "TableName": "v_baa01",
-        "ColumnName": "A01410",
-        "GUID": "1c2e17e9-292a-4dd0-b66e-3418b9e4f0da"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "NONYUSAKI",
+        "GUID": "1b1042ff-5708-4cab-aa70-060f0db32ad7"
       }
     },
     "5,60": {
       "BindingInfo": {
-        "TableName": "v_baa01",
-        "ColumnName": "A01420",
-        "GUID": "99b6b60d-1b39-41a9-af7e-bb5e20f2c6e5"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "NONYUSAKI_TANTOSHA",
+        "GUID": "ec2cc4a4-613e-43f4-afad-2dc41a7524f5"
       }
     },
     "23,10": {
@@ -985,7 +976,7 @@
                 }
               ]
             },
-            "ID": "524124119e3643f18fe3cd2611a10c5b"
+            "ID": "65bf85f996ab4c21905e39747c286420"
           },
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -1266,7 +1257,7 @@
     "37,6": {
       "ListViewInfo": {
         "Name": "リストビュー2",
-        "TableName": "v_baa22",
+        "TableName": "ymia_v_seihindb",
         "RowIndex": 37,
         "ColumnIndex": 6,
         "RowCount": 4,
@@ -1281,67 +1272,25 @@
         "DoNotLoadDataWhenLoadPage": true
       }
     },
-    "38,7": {
-      "BindingInfo": {
-        "TableName": "v_baa22",
-        "ColumnName": "A22080",
-        "GUID": "65610600-7f22-47b5-af0f-9c43fe205828"
-      }
-    },
-    "38,14": {
-      "BindingInfo": {
-        "TableName": "v_baa22",
-        "ColumnName": "A22110",
-        "GUID": "f7928440-ad93-45ea-a644-170ba16ba22a"
-      }
-    },
-    "38,19": {
-      "BindingInfo": {
-        "TableName": "v_baa22",
-        "ColumnName": "A22040",
-        "GUID": "350088e1-09bd-4388-8f94-24739153498d"
-      }
-    },
     "38,24": {
       "BindingInfo": {
-        "TableName": "v_baa22",
-        "ColumnName": "A22050",
-        "GUID": "999234bd-6d3e-4942-9f83-192f4f135473"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "KISHU",
+        "GUID": "c898216b-b3a4-4e82-9346-3e3d29024fa1"
       }
     },
     "38,29": {
       "BindingInfo": {
-        "TableName": "v_baa22",
-        "ColumnName": "A22060",
-        "GUID": "1c8f4c37-4491-4c4d-a71f-ddc0d33597a0"
-      }
-    },
-    "38,35": {
-      "BindingInfo": {
-        "TableName": "v_baa22",
-        "ColumnName": "A22190",
-        "GUID": "e65e991d-b522-4f5d-9d62-44dc6a062b49"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "KIBAN",
+        "GUID": "fbaeec0a-75cb-4e58-8512-cd530bd7a7a2"
       }
     },
     "38,41": {
       "BindingInfo": {
-        "TableName": "v_baa22",
-        "ColumnName": "A22210",
-        "GUID": "2968ba40-2606-4ee1-bc02-5b22279b2e2f"
-      }
-    },
-    "38,47": {
-      "BindingInfo": {
-        "TableName": "v_baa22",
-        "ColumnName": "A22250",
-        "GUID": "de220bae-876f-40ec-bf0a-d3ab7b5b03f6"
-      }
-    },
-    "38,53": {
-      "BindingInfo": {
-        "TableName": "v_baa22",
-        "ColumnName": "A22330",
-        "GUID": "fe47fd30-6cb8-4169-8ecc-e994948885c4"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "SHUKKA_DATE",
+        "GUID": "53fc62a1-a9e4-49fc-8b1f-ec16cb61436d"
       }
     },
     "42,6": {
@@ -1470,7 +1419,7 @@
     "46,6": {
       "ListViewInfo": {
         "Name": "リストビュー4",
-        "TableName": "v_baa23",
+        "TableName": "ymia_v_seihindb",
         "RowIndex": 46,
         "ColumnIndex": 6,
         "RowCount": 3,
@@ -1481,9 +1430,9 @@
             {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
               "ColumnBindingInfo": {
-                "TableName": "v_baa23",
-                "ColumnName": "A23080",
-                "GUID": "628561d2-0d7a-4a55-9e44-07b813422d3a"
+                "TableName": "ymia_v_seihindb",
+                "ColumnName": "KISHU",
+                "GUID": "9b4c7332-4ba3-4724-8120-372fdcc22f1f"
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1493,9 +1442,9 @@
             {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
               "ColumnBindingInfo": {
-                "TableName": "v_baa23",
-                "ColumnName": "A23090",
-                "GUID": "bfd2cfc0-addd-4e50-87ab-b1edd16f639e"
+                "TableName": "ymia_v_seihindb",
+                "ColumnName": "KIBAN",
+                "GUID": "3d8efa1a-390f-4240-88e3-1a409b1d6330"
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1514,158 +1463,103 @@
         "DoNotLoadDataWhenLoadPage": true
       }
     },
+    "47,6": {
+      "NameUsedInJavaScript": "KISHU",
+      "BindingInfo": {
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "KISHU",
+        "GUID": "37941e5f-650e-4bb8-8991-48fdd069d720"
+      }
+    },
     "47,7": {
       "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23070",
-        "GUID": "99ee2bb1-0050-4070-a0fb-249e15ac702f"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "SHODAN_JOKYO",
+        "GUID": "c387908b-08f7-4f67-aec5-72c99aa24b89"
       }
     },
     "47,10": {
       "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23120",
-        "GUID": "d7439514-777b-47ee-bb85-1dfe8345824b"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "HANBAI_KATASHIKI",
+        "GUID": "12c059c9-f006-4ada-bdec-0c2215cab768"
       }
     },
     "47,19": {
       "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23280",
-        "GUID": "81828993-77dd-477c-a01a-9b23b7ea6984"
-      }
-    },
-    "47,23": {
-      "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23430",
-        "GUID": "9d082850-1df6-4557-b59b-3acb6bf4fd2d"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "SHUKKA_YOTEI_DATE",
+        "GUID": "daebced1-4da0-4a1a-98b4-114d56aee694"
       }
     },
     "47,27": {
       "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23330",
-        "GUID": "73d2ae4d-8257-4234-9df3-000982098aa4"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "TOCHAKU_DATE",
+        "GUID": "c20505dd-3cd9-4560-9d0e-166bd4022616"
       }
     },
     "47,31": {
       "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23340",
-        "GUID": "d799d79e-e8f6-4b30-b5af-bb8871d24444"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "SHUKKA_TIME",
+        "GUID": "492b4478-1bd9-4879-a587-3075b381cb0c"
       }
     },
     "47,35": {
       "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23130",
-        "GUID": "0b7b2042-3b60-4b68-a636-4f5ebc493161"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "RIKUKAI_KUBUN",
+        "GUID": "f19f742b-102e-4f3a-969f-f0e890620363"
       }
     },
     "47,38": {
       "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23140",
-        "GUID": "6b630820-dbd4-40cb-9574-f216eac499c0"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "TEHAI_KUBUN",
+        "GUID": "c6df3415-7d5b-4056-814a-d63dbbc6b525"
       }
     },
     "47,41": {
       "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23150",
-        "GUID": "d5452909-41d1-44aa-952a-51784d3b4f74"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "SHASHU",
+        "GUID": "f4d36838-6ae5-4283-bc60-517e01de53f9"
       }
     },
     "47,46": {
       "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23160",
-        "GUID": "51537a91-64f4-4f29-a54e-b9f99409f5b5"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "UNSO_GYOSHA",
+        "GUID": "e46f3767-29fc-4f35-a8f7-5e748764fdc0"
       }
     },
     "47,53": {
       "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23250",
-        "GUID": "51b82910-9591-401c-82fa-23e005ee6bb1"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "DOSOHIN",
+        "GUID": "e7d6ec43-0567-4278-8530-7f0b8a02ca34"
       }
     },
     "47,57": {
       "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23260",
-        "GUID": "f1ba17de-1c85-4264-9f64-649d7cd33bc5"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "RENRAKU_JIKO",
+        "GUID": "9ec73f52-988f-40e7-a5e2-2443d4009a24"
       }
     },
     "47,62": {
       "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23270",
-        "GUID": "dfcbf4d1-6997-4fe4-aee9-dfc51e054888"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "SHANAI_RENRAKU_JIKO",
+        "GUID": "5abcdba6-d222-4525-a11b-d933647a3caf"
       }
     },
     "47,75": {
       "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23040",
-        "GUID": "089aeb59-67e0-4211-8929-3d31a9567581"
-      }
-    },
-    "47,79": {
-      "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23050",
-        "GUID": "8d9fa264-fcad-4627-8d14-617bdb79d3d8"
-      }
-    },
-    "47,83": {
-      "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23170",
-        "GUID": "b01f4a1f-1465-4a99-815c-7bfec3069a46"
-      }
-    },
-    "47,84": {
-      "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23180",
-        "GUID": "34e2827b-71b0-48b1-9eeb-737cc2eb3ac2"
-      }
-    },
-    "47,85": {
-      "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23190",
-        "GUID": "750f7453-3ea0-4af0-aef6-8ad393ade7f1"
-      }
-    },
-    "47,86": {
-      "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23210",
-        "GUID": "842b11e5-d978-4c7b-871a-c15923303166"
-      }
-    },
-    "47,87": {
-      "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23220",
-        "GUID": "5bb4561f-dc92-426c-b8ea-50cf1f92c421"
-      }
-    },
-    "47,88": {
-      "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23230",
-        "GUID": "99230e7f-0d3a-44db-ad3d-3fa1d3fc13f8"
-      }
-    },
-    "47,89": {
-      "BindingInfo": {
-        "TableName": "v_baa23",
-        "ColumnName": "A23240",
-        "GUID": "8f8ea61b-5c75-421f-83ac-c484282b9e25"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "ORDER_NO",
+        "GUID": "9b2daccd-c072-4bbf-9565-d6159d62c8ac"
       }
     }
   },
@@ -2142,11 +2036,6 @@
         "BorderTop": 0
       },
       {
-        "FontFamily": 4,
-        "BorderTop": 0,
-        "BorderRight": 0
-      },
-      {
         "BorderLeft": 0
       },
       {
@@ -2179,6 +2068,11 @@
         "WordWrap": true,
         "BorderTop": 0,
         "BorderLeft": 0
+      },
+      {
+        "FontFamily": 4,
+        "BorderTop": 0,
+        "BorderRight": 0
       },
       {
         "Background": 18,
@@ -2426,57 +2320,15 @@
       "2,63": 1,
       "4,39": 12,
       "4,44": 4,
-      "4,45": 4,
-      "4,46": 4,
-      "4,47": 4,
-      "4,48": 4,
-      "4,49": 4,
-      "4,50": 4,
-      "4,51": 4,
       "4,52": 13,
-      "4,53": 4,
-      "4,54": 4,
-      "4,55": 4,
-      "4,56": 4,
-      "4,57": 4,
-      "4,58": 4,
-      "4,59": 4,
       "4,60": 4,
-      "4,61": 4,
-      "4,62": 4,
-      "4,63": 4,
-      "4,64": 4,
-      "4,65": 4,
-      "4,66": 4,
-      "4,67": 4,
       "4,68": 4,
       "5,29": 14,
       "5,34": 15,
       "5,39": 14,
       "5,44": 4,
-      "5,45": 4,
-      "5,46": 4,
-      "5,47": 4,
-      "5,48": 4,
-      "5,49": 4,
-      "5,50": 4,
-      "5,51": 4,
       "5,52": 4,
-      "5,53": 4,
-      "5,54": 4,
-      "5,55": 4,
-      "5,56": 4,
-      "5,57": 4,
-      "5,58": 4,
-      "5,59": 4,
       "5,60": 4,
-      "5,61": 4,
-      "5,62": 4,
-      "5,63": 4,
-      "5,64": 4,
-      "5,65": 4,
-      "5,66": 4,
-      "5,67": 4,
       "5,68": 4,
       "9,82": 16,
       "22,1": 17,
@@ -3526,9 +3378,8 @@
       "37,56": 58,
       "37,57": 58,
       "37,58": 58,
-      "37,59": 60,
-      "38,1": 61,
-      "38,5": 62,
+      "38,1": 60,
+      "38,5": 61,
       "38,6": 4,
       "38,7": 4,
       "38,8": 4,
@@ -3558,33 +3409,32 @@
       "38,32": 4,
       "38,33": 4,
       "38,34": 4,
-      "38,35": 63,
+      "38,35": 62,
       "38,36": 4,
       "38,37": 4,
       "38,38": 4,
       "38,39": 4,
       "38,40": 4,
-      "38,41": 63,
+      "38,41": 62,
       "38,42": 4,
       "38,43": 4,
       "38,44": 4,
       "38,45": 4,
       "38,46": 4,
-      "38,47": 63,
+      "38,47": 62,
       "38,48": 4,
       "38,49": 4,
       "38,50": 4,
       "38,51": 4,
       "38,52": 4,
-      "38,53": 63,
+      "38,53": 62,
       "38,54": 4,
       "38,55": 4,
       "38,56": 4,
       "38,57": 4,
       "38,58": 4,
-      "38,59": 64,
-      "39,1": 61,
-      "39,5": 62,
+      "39,1": 60,
+      "39,5": 61,
       "39,6": 4,
       "39,7": 4,
       "39,8": 4,
@@ -3638,71 +3488,71 @@
       "39,56": 4,
       "39,57": 4,
       "39,58": 4,
-      "39,59": 64,
+      "39,59": 63,
       "40,1": 56,
       "40,2": 9,
       "40,3": 9,
       "40,4": 9,
       "40,5": 10,
-      "40,6": 65,
-      "40,7": 65,
-      "40,8": 65,
-      "40,9": 65,
-      "40,10": 65,
-      "40,11": 65,
-      "40,12": 65,
-      "40,13": 65,
-      "40,14": 65,
-      "40,15": 65,
-      "40,16": 65,
-      "40,17": 65,
-      "40,18": 65,
-      "40,19": 65,
-      "40,20": 65,
-      "40,21": 65,
-      "40,22": 65,
-      "40,23": 65,
-      "40,24": 65,
-      "40,25": 65,
-      "40,26": 65,
-      "40,27": 65,
-      "40,28": 65,
-      "40,29": 65,
-      "40,30": 65,
-      "40,31": 65,
-      "40,32": 65,
-      "40,33": 65,
-      "40,34": 65,
-      "40,35": 65,
-      "40,36": 65,
-      "40,37": 65,
-      "40,38": 65,
-      "40,39": 65,
-      "40,40": 65,
-      "40,41": 65,
-      "40,42": 65,
-      "40,43": 65,
-      "40,44": 65,
-      "40,45": 65,
-      "40,46": 65,
-      "40,47": 65,
-      "40,48": 65,
-      "40,49": 65,
-      "40,50": 65,
-      "40,51": 65,
-      "40,52": 65,
-      "40,53": 65,
-      "40,54": 65,
-      "40,55": 65,
-      "40,56": 65,
-      "40,57": 65,
-      "40,58": 65,
-      "40,59": 66,
-      "42,1": 67,
+      "40,6": 64,
+      "40,7": 64,
+      "40,8": 64,
+      "40,9": 64,
+      "40,10": 64,
+      "40,11": 64,
+      "40,12": 64,
+      "40,13": 64,
+      "40,14": 64,
+      "40,15": 64,
+      "40,16": 64,
+      "40,17": 64,
+      "40,18": 64,
+      "40,19": 64,
+      "40,20": 64,
+      "40,21": 64,
+      "40,22": 64,
+      "40,23": 64,
+      "40,24": 64,
+      "40,25": 64,
+      "40,26": 64,
+      "40,27": 64,
+      "40,28": 64,
+      "40,29": 64,
+      "40,30": 64,
+      "40,31": 64,
+      "40,32": 64,
+      "40,33": 64,
+      "40,34": 64,
+      "40,35": 64,
+      "40,36": 64,
+      "40,37": 64,
+      "40,38": 64,
+      "40,39": 64,
+      "40,40": 64,
+      "40,41": 64,
+      "40,42": 64,
+      "40,43": 64,
+      "40,44": 64,
+      "40,45": 64,
+      "40,46": 64,
+      "40,47": 64,
+      "40,48": 64,
+      "40,49": 64,
+      "40,50": 64,
+      "40,51": 64,
+      "40,52": 64,
+      "40,53": 64,
+      "40,54": 64,
+      "40,55": 64,
+      "40,56": 64,
+      "40,57": 64,
+      "40,58": 64,
+      "40,59": 65,
+      "42,1": 66,
       "42,2": 58,
       "42,3": 58,
       "42,4": 58,
-      "42,5": 60,
+      "42,5": 67,
       "42,6": 58,
       "42,7": 68,
       "42,8": 54,
@@ -3744,7 +3594,7 @@
       "43,2": 4,
       "43,3": 4,
       "43,4": 4,
-      "43,5": 64,
+      "43,5": 63,
       "43,6": 4,
       "43,7": 77,
       "43,8": 4,
@@ -3779,64 +3629,64 @@
       "43,75": 80,
       "43,79": 80,
       "44,1": 81,
-      "44,2": 65,
-      "44,3": 65,
-      "44,4": 65,
-      "44,5": 66,
-      "44,6": 65,
-      "44,7": 65,
-      "44,8": 65,
-      "44,9": 65,
-      "44,10": 65,
-      "44,11": 65,
-      "44,12": 65,
-      "44,13": 65,
-      "44,14": 65,
-      "44,15": 65,
-      "44,16": 65,
-      "44,17": 65,
-      "44,18": 65,
-      "44,19": 65,
-      "44,20": 65,
-      "44,21": 65,
-      "44,22": 65,
-      "44,23": 65,
-      "44,24": 65,
-      "44,25": 65,
-      "44,26": 65,
-      "44,27": 65,
-      "44,28": 65,
-      "44,29": 65,
-      "44,30": 65,
-      "44,31": 65,
-      "44,32": 65,
-      "44,33": 65,
-      "44,34": 65,
-      "44,35": 65,
-      "44,36": 65,
-      "44,37": 65,
-      "44,38": 65,
-      "44,39": 65,
-      "44,40": 65,
-      "44,41": 65,
-      "44,42": 65,
-      "44,43": 65,
-      "44,44": 65,
-      "44,45": 65,
-      "44,46": 65,
-      "44,47": 65,
-      "44,48": 65,
-      "44,49": 65,
-      "44,50": 65,
-      "44,51": 65,
-      "44,52": 65,
-      "44,53": 65,
-      "44,54": 65,
-      "44,55": 65,
-      "44,56": 65,
-      "44,57": 65,
-      "44,58": 65,
-      "44,59": 66,
+      "44,2": 64,
+      "44,3": 64,
+      "44,4": 64,
+      "44,5": 65,
+      "44,6": 64,
+      "44,7": 64,
+      "44,8": 64,
+      "44,9": 64,
+      "44,10": 64,
+      "44,11": 64,
+      "44,12": 64,
+      "44,13": 64,
+      "44,14": 64,
+      "44,15": 64,
+      "44,16": 64,
+      "44,17": 64,
+      "44,18": 64,
+      "44,19": 64,
+      "44,20": 64,
+      "44,21": 64,
+      "44,22": 64,
+      "44,23": 64,
+      "44,24": 64,
+      "44,25": 64,
+      "44,26": 64,
+      "44,27": 64,
+      "44,28": 64,
+      "44,29": 64,
+      "44,30": 64,
+      "44,31": 64,
+      "44,32": 64,
+      "44,33": 64,
+      "44,34": 64,
+      "44,35": 64,
+      "44,36": 64,
+      "44,37": 64,
+      "44,38": 64,
+      "44,39": 64,
+      "44,40": 64,
+      "44,41": 64,
+      "44,42": 64,
+      "44,43": 64,
+      "44,44": 64,
+      "44,45": 64,
+      "44,46": 64,
+      "44,47": 64,
+      "44,48": 64,
+      "44,49": 64,
+      "44,50": 64,
+      "44,51": 64,
+      "44,52": 64,
+      "44,53": 64,
+      "44,54": 64,
+      "44,55": 64,
+      "44,56": 64,
+      "44,57": 64,
+      "44,58": 64,
+      "44,59": 65,
       "44,83": 4,
       "44,84": 4,
       "44,85": 4,
@@ -3848,7 +3698,7 @@
       "45,3": 82,
       "45,4": 82,
       "45,5": 82,
-      "46,1": 67,
+      "46,1": 66,
       "46,2": 54,
       "46,3": 54,
       "46,4": 54,
@@ -3875,8 +3725,8 @@
       "46,87": 77,
       "46,88": 77,
       "46,89": 77,
-      "47,1": 61,
-      "47,5": 62,
+      "47,1": 60,
+      "47,5": 61,
       "47,7": 78,
       "47,10": 78,
       "47,19": 79,
@@ -3899,8 +3749,8 @@
       "47,87": 77,
       "47,88": 77,
       "47,89": 77,
-      "48,1": 61,
-      "48,5": 62,
+      "48,1": 60,
+      "48,5": 61,
       "48,39": 9,
       "48,40": 9,
       "48,41": 9,
@@ -3922,7 +3772,7 @@
       "48,57": 9,
       "48,58": 9,
       "48,59": 9,
-      "49,1": 61,
+      "49,1": 60,
       "49,6": 86,
       "49,7": 87,
       "49,8": 87,
@@ -3995,8 +3845,8 @@
       "49,75": 91,
       "49,76": 91,
       "49,77": 92,
-      "50,1": 61,
-      "50,5": 62,
+      "50,1": 60,
+      "50,5": 61,
       "50,6": 93,
       "50,7": 91,
       "50,8": 91,
@@ -4069,8 +3919,8 @@
       "50,75": 91,
       "50,76": 91,
       "50,77": 92,
-      "51,1": 61,
-      "51,5": 62,
+      "51,1": 60,
+      "51,5": 61,
       "51,6": 93,
       "51,7": 91,
       "51,8": 91,
@@ -4313,32 +4163,8 @@
     "33,26,2,6",
     "33,39,2,9",
     "37,1,4,5",
-    "38,7,1,7",
-    "38,14,1,5",
-    "38,19,1,5",
-    "38,24,1,5",
-    "38,29,1,6",
-    "38,35,1,6",
-    "38,41,1,6",
-    "38,47,1,6",
-    "38,53,1,6",
     "42,1,3,5",
     "46,1,7,5",
-    "47,7,1,3",
-    "47,10,1,9",
-    "47,19,1,4",
-    "47,23,1,4",
-    "47,27,1,4",
-    "47,31,1,4",
-    "47,35,1,3",
-    "47,38,1,3",
-    "47,41,1,5",
-    "47,46,1,7",
-    "47,53,1,4",
-    "47,57,1,5",
-    "47,62,1,13",
-    "47,75,1,4",
-    "47,79,1,4",
     "49,6,1,7",
     "49,13,1,26",
     "49,39,1,7",
@@ -4357,14 +4183,6 @@
     "52,46,1,32",
     "1,14,2,4",
     "1,19,2,4",
-    "5,2,1,5",
-    "5,7,1,3",
-    "5,10,1,4",
-    "5,14,1,7",
-    "5,21,1,4",
-    "5,25,1,4",
-    "5,29,1,5",
-    "5,34,1,5",
     "43,7,1,5",
     "43,12,1,4",
     "43,16,1,5",
@@ -4389,23 +4207,6 @@
     "27,34,1,4",
     "28,34,1,4",
     "33,36,2,3",
-    "4,2,1,5",
-    "4,7,1,3",
-    "4,10,1,4",
-    "4,14,1,7",
-    "4,21,1,4",
-    "4,25,1,4",
-    "4,29,1,5",
-    "4,34,1,5",
-    "37,7,1,7",
-    "37,14,1,5",
-    "37,19,1,5",
-    "37,24,1,5",
-    "37,29,1,6",
-    "37,35,1,6",
-    "37,41,1,6",
-    "37,47,1,6",
-    "37,53,1,6",
     "42,7,1,5",
     "42,12,1,4",
     "42,16,1,5",
@@ -4421,36 +4222,85 @@
     "42,65,1,10",
     "42,75,1,4",
     "42,79,1,4",
-    "46,7,1,3",
-    "46,10,1,9",
-    "46,19,1,4",
-    "46,23,1,4",
-    "46,27,1,4",
-    "46,31,1,4",
-    "46,35,1,3",
-    "46,38,1,3",
-    "46,41,1,5",
-    "46,46,1,7",
-    "46,53,1,4",
-    "46,57,1,5",
-    "46,62,1,13",
-    "46,75,1,4",
-    "46,79,1,4",
-    "39,6,2,54",
     "44,6,1,77",
     "48,6,1,84",
     "31,39,1,9",
     "31,48,1,7",
     "31,55,1,7",
-    "5,44,1,8",
-    "5,52,1,8",
-    "5,60,1,8",
-    "4,44,1,8",
-    "4,52,1,8",
-    "4,60,1,8",
+    "6,1,15,71",
+    "5,2,1,5",
+    "4,2,1,5",
+    "5,7,1,3",
+    "4,7,1,3",
+    "5,10,1,4",
+    "4,10,1,4",
+    "5,25,1,4",
+    "4,25,1,4",
     "5,39,1,5",
     "4,39,1,5",
-    "6,1,15,71"
+    "5,14,1,7",
+    "4,14,1,7",
+    "5,21,1,4",
+    "4,21,1,4",
+    "5,29,1,5",
+    "4,29,1,5",
+    "5,34,1,5",
+    "4,34,1,5",
+    "5,44,1,8",
+    "4,44,1,8",
+    "5,52,1,8",
+    "4,52,1,8",
+    "5,60,1,8",
+    "4,60,1,8",
+    "39,6,2,54",
+    "38,7,1,7",
+    "37,7,1,7",
+    "38,14,1,5",
+    "37,14,1,5",
+    "38,19,1,5",
+    "37,19,1,5",
+    "38,24,1,5",
+    "37,24,1,5",
+    "38,29,1,6",
+    "37,29,1,6",
+    "38,35,1,6",
+    "37,35,1,6",
+    "38,41,1,6",
+    "37,41,1,6",
+    "38,47,1,6",
+    "37,47,1,6",
+    "38,53,1,6",
+    "37,53,1,6",
+    "47,7,1,3",
+    "46,7,1,3",
+    "47,10,1,9",
+    "46,10,1,9",
+    "47,19,1,4",
+    "46,19,1,4",
+    "47,23,1,4",
+    "46,23,1,4",
+    "47,27,1,4",
+    "46,27,1,4",
+    "47,31,1,4",
+    "46,31,1,4",
+    "47,35,1,3",
+    "46,35,1,3",
+    "47,38,1,3",
+    "46,38,1,3",
+    "47,41,1,5",
+    "46,41,1,5",
+    "47,46,1,7",
+    "46,46,1,7",
+    "47,53,1,4",
+    "46,53,1,4",
+    "47,57,1,5",
+    "46,57,1,5",
+    "47,62,1,13",
+    "46,62,1,13",
+    "47,75,1,4",
+    "46,75,1,4",
+    "47,79,1,4",
+    "46,79,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -4497,6 +4347,7 @@
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
+    "RelatedDataTableName": "ymia_v_seihindb",
     "ConditionFormatRulesCollection": {
       "Rules": [
         {
@@ -4561,4 +4412,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//YOWGOIW05V9GkTYXqoo4OEkODRlP0yAgk+sst4zz4hYg+VmI2PJ+wRaI9cJJb1Z3Y5rAl0+2MXIev7GZh46RnjwEGe2FK1ODbDjHh7bn0z/sYe9J+5cAwsRf8J5pR/kMIwlUL9Aeapk0jDSeCvWndcQRj0+Gs8HySm0yRWqi8ql3FMQjzW4o+fLN+0Y9AM0hBm5lJjl+62Tpu4uM1vIgfSdH9sUa93Uv8Mk5Lo2cjGP6SGwfEgyUmIXgzys9cBj3GwN9BflaDD3pmntBbbNTKvK7Q2WBOiaHcfzJgximf2siCx2Z5j1eVNuY0Xd/Ax2nE5mMQX3BSJAqamsGSlkVCGjKvdPcjhqqN88oB56rES0qc9zGDXJl/K7j4k63S/+lKP9ls/29scm6z61QZzxUR7mdVsAH75FZDvfhrxFFD/hPu/Q3wHmo3KSKI0Uf2e5le1MyjbAcULMXqEp+d8H3+qCcPxXrgKVbIXTlQ44lHixTJz39Ps173AFX5Jz5AtlwKZ8eN4l0AoeY+0KlgLp2g11A10gUGDqfc/nPj0zuHlmmr5x7Tyc5dYzGrrD2Kmdhzm4XwSyqMsiF1ZOAOnr3s46xYFkNl5GJ782ie/jt25g16B6RO4LQoV70jHeYB6z0qmmY3MCczYzHfpyIlXHnCLhkAqV6XXy2kQ45+hzXvevRhhuw1w86T1I1c6WPlO7bRYnljdNzos3QyWAo+werFtuLrlbNkSZF28J9RW8UUWW7pmDHJciUlJ6ll9601p7b7bUhP8ulExWh94PG/BfQi/Agtxr/qqLDonHFylmTw646ix8Klxf4BHrGXjfhR7lLHMd40jZc0B7aaH/ERxmeL553ygEhd0+SS49KxT2WzlWF/vLTaL3X5eVsHihG3OBtWquIYzC6xx29K9H4xojVCg==|920
+}//gBVywZcs5w1C1FXKKc9pxCkuKffkLZVEA2Ccs5uH4siPmzFYS/9+rfLNarkGrycRk7JCriVvVtnFH3h0MSrK/Y75SNrytu8K/lKI2ASJoYIsfWifmggsF7dZiT9QpEFMD+vuSNW0GPSat8le0vWQ1ZEaud0CR/OMQ7ZAez5m4+QbR7gQpZhEoMZaqkTweObZaGV41bh/PlFLmBIFcQZMORCQuhmXt9+2aazTj7YAuHtZ60fwPtZh6srT2RAeRsVdjKVbz5S7QcvOx3NJZM4h6EyVSon1kfcY1epUEIgcbC06mH2Ab/qB/X2w/2rFK8Q1ABRkgvWqEBqS+oL193J1R5Gl8Y9p3d7Vx/dmcRfw90w41fjmoSe9UtFwDeaGqfpqAAronSyCv1NEu6ixMRV8DjV57s3SdckuCL4BGODMRbQGbV7hjMMfAgJ1uEd6rnAFWgVL+KRvqtZI0/5vDuzWEd992jqojouuzMHszyCEpdoQqCFpXWIkUJ8M7uTpS4kNwz1Cs2BHdCtr7S2HG+ISgAg2h6OBEcAjDm+zytTy+WRjlFPJM+GqYB+pm9rXIMU35yYnqQrtD+X8t5tT/yw3evtmOKPq1r7TDTr2C1A+Ts8TMYGT5Zv1jtkTlyalcyM3M6lYdyrwomzoGrLm+oC6YikHwgYhobKEuRqqmrOxaIgoD5HzygqkXxCwLPq3HM4WTd7xb2aOnTDBV/JAbpFwMttRw1jvhE+ZF0UyoNW0j1Zpr4gCSu3XrR8PeXMX1ObZnxBIt7QuSPOniSSyM09zXjxd/XxxwdwkOVK/1n7j6B3yoVFRueKIITiZshb7P4PRoXdHPCtURVqd20/XvUz7eK0gffvTH7M/e1lPuGmqAzDFq7mYn73oYUZUdBn6l/OPob3e2WBn8oHKQboSW9DEMQ==|920

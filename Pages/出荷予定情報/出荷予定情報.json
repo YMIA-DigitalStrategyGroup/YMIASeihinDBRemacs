@@ -99,11 +99,14 @@
     "6,2": "出荷予定日",
     "6,7": "(曜日)",
     "6,9": "ｷｬﾝｾﾙ",
+    "6,12": "A23300",
     "6,13": "手配",
     "6,19": "車種",
     "6,23": "時間",
     "6,26": "着日",
     "6,31": "時間",
+    "6,34": "A23080",
+    "6,36": "A23090",
     "6,38": "出荷製品",
     "6,47": "物件管理NO.",
     "6,52": "送り先",
@@ -173,21 +176,21 @@
           },
           {
             "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
-            "TargetTableName": "v_baa23onbaa20",
+            "TargetTableName": "ymia_v_seihindb",
             "SqlCondition": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
               "CompareType": 3,
               "ColumnBindingInfo": {
-                "TableName": "v_baa23onbaa20",
-                "ColumnName": "A23280",
-                "GUID": "99322b0d-0189-4f9d-a454-54af5a085a35"
+                "TableName": "ymia_v_seihindb",
+                "ColumnName": "KISHU",
+                "GUID": "2a1c49ad-b393-456e-98a1-458727a26934"
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=出荷予定情報!J2"
               }
             },
-            "ID": "2ce7d7620cf84d9695fb5f29ec3d8f72"
+            "ID": "42d7994539f94896885922b06f8fb792"
           }
         ],
         "Text": "再表示",
@@ -272,31 +275,11 @@
     "6,1": {
       "ListViewInfo": {
         "Name": "リストビュー1",
-        "TableName": "v_baa23onbaa20",
+        "TableName": "ymia_v_seihindb",
         "RowIndex": 6,
         "ColumnIndex": 1,
         "RowCount": 28,
         "ColumnCount": 92,
-        "OrderByCondition": {
-          "OrderByColumns": [
-            {
-              "ColumnBindingInfo": {
-                "TableName": "v_baa23onbaa20",
-                "ColumnName": "A23280",
-                "GUID": "5e10c933-f7b9-4ceb-93c8-61dd56992753"
-              },
-              "Order": 0
-            },
-            {
-              "ColumnBindingInfo": {
-                "TableName": "v_baa23onbaa20",
-                "ColumnName": "A23120",
-                "GUID": "9d2f6f7d-24bc-43b2-8911-8f94aaa7269b"
-              },
-              "Order": 0
-            }
-          ]
-        },
         "TopCondition": null,
         "ListViewStyleName": "_RS_Medium2",
         "CurrentRowChangedCommandList": [
@@ -336,36 +319,24 @@
     "7,2": {
       "IsAutoMergeInListview": true,
       "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23280",
-        "GUID": "a4f843df-7fd2-4d67-ba98-abf7cae73b8e"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "SHUKKA_YOTEI_DATE",
+        "GUID": "d05ddf26-7f61-49db-8f1a-202a87ac9ee8"
       }
     },
     "7,7": {
-      "IsAutoMergeInListview": true,
-      "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23280",
-        "GUID": "4a238123-0376-468f-9035-4fde1088d0d8"
-      }
+      "IsAutoMergeInListview": true
     },
     "7,9": {
       "RulesGuidList": [
         "dbe7f3b3-7d71-4742-ac62-59baa15440d9"
       ]
     },
-    "7,12": {
-      "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23300",
-        "GUID": "10b09837-40eb-425d-922d-c18fecabd4c9"
-      }
-    },
     "7,13": {
       "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23420",
-        "GUID": "e96926c8-a872-48ed-a376-b1c74d3f3cbc"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "TEHAI_KUBUN",
+        "GUID": "4d950de3-19d4-488f-97c1-cf08cc1f0ea8"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -406,100 +377,37 @@
     },
     "7,19": {
       "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23150",
-        "GUID": "42064429-cbff-464c-8df8-9079214dde59"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "SHASHU",
+        "GUID": "136a9cdc-03c5-4bad-9700-74fd0f468629"
       }
     },
     "7,23": {
       "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23430",
-        "GUID": "f4e6b3c3-858b-49ec-aaab-800583508b8a"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "SHUKKA_TIME",
+        "GUID": "5c6ea855-b1dd-4dab-a2c1-74acdff7accb"
       }
     },
     "7,26": {
       "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23330",
-        "GUID": "20f85c8b-2d64-49f3-9437-eb4e2404f034"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "TOCHAKU_DATE",
+        "GUID": "65e8e786-0475-47b9-94f4-fff68030ef19"
       }
     },
     "7,31": {
       "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23340",
-        "GUID": "4b10f8cc-d061-49f5-93d4-0796f07b63b6"
-      }
-    },
-    "7,34": {
-      "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23080",
-        "GUID": "8a33cbbf-04f7-4f61-9bd5-ed3edfede607"
-      }
-    },
-    "7,36": {
-      "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23090",
-        "GUID": "0cd5a7a5-4d4c-4cde-b468-cb2631083ac7"
-      }
-    },
-    "7,38": {
-      "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23120",
-        "GUID": "737ef954-5d80-4581-9930-1afd88ccbd8f"
-      }
-    },
-    "7,47": {
-      "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23040",
-        "GUID": "fe842414-786b-4731-9e64-bd8aa24bbcb0"
-      }
-    },
-    "7,52": {
-      "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23170",
-        "GUID": "85407cf2-9825-4b23-a88b-5746f78ea10b"
-      }
-    },
-    "7,63": {
-      "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23180",
-        "GUID": "37bba77a-ed3f-43c7-9dcd-eda4fc8f2be7"
-      }
-    },
-    "7,78": {
-      "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23360",
-        "GUID": "ddb8af93-dc0c-4262-aa78-a205009b2598"
-      }
-    },
-    "7,83": {
-      "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23080",
-        "GUID": "dee43a1c-324c-45de-a03f-93a2a43f2a02"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "TOCHAKU_TIME",
+        "GUID": "76101191-790c-4334-8984-1e885fc4202e"
       }
     },
     "7,87": {
       "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23270",
-        "GUID": "689fc400-c1dd-4c00-b018-cff70dc63c62"
-      }
-    },
-    "7,90": {
-      "BindingInfo": {
-        "TableName": "v_baa23onbaa20",
-        "ColumnName": "A23400",
-        "GUID": "60ba3a8e-a042-486b-991e-ee417caa400a"
+        "TableName": "ymia_v_seihindb",
+        "ColumnName": "SHANAI_RENRAKU_JIKO",
+        "GUID": "d7d7ce49-1b52-4011-8047-70bf1a6e8afe"
       }
     },
     "35,1": {
@@ -2141,24 +2049,6 @@
     "3,1,2,8",
     "3,19,2,4",
     "3,26,2,5",
-    "7,2,1,5",
-    "7,7,1,2",
-    "7,9,1,3",
-    "7,13,1,6",
-    "7,19,1,4",
-    "7,23,1,3",
-    "7,26,1,5",
-    "7,31,1,3",
-    "7,34,1,2",
-    "7,36,1,2",
-    "7,38,1,9",
-    "7,47,1,5",
-    "7,52,1,11",
-    "7,63,1,15",
-    "7,78,1,5",
-    "7,83,1,4",
-    "7,87,1,3",
-    "7,90,1,2",
     "8,1,26,92",
     "0,37,1,6",
     "0,49,1,6",
@@ -2167,23 +2057,41 @@
     "0,65,1,11",
     "4,33,1,18",
     "3,33,1,18",
+    "7,2,1,5",
     "6,2,1,5",
+    "7,7,1,2",
     "6,7,1,2",
+    "7,9,1,3",
     "6,9,1,3",
+    "7,13,1,6",
     "6,13,1,6",
+    "7,19,1,4",
     "6,19,1,4",
+    "7,23,1,3",
     "6,23,1,3",
+    "7,26,1,5",
     "6,26,1,5",
+    "7,31,1,3",
     "6,31,1,3",
+    "7,34,1,2",
     "6,34,1,2",
+    "7,36,1,2",
     "6,36,1,2",
+    "7,38,1,9",
     "6,38,1,9",
+    "7,47,1,5",
     "6,47,1,5",
+    "7,52,1,11",
     "6,52,1,11",
+    "7,63,1,15",
     "6,63,1,15",
+    "7,78,1,5",
     "6,78,1,5",
+    "7,83,1,4",
     "6,83,1,4",
+    "7,87,1,3",
     "6,87,1,3",
+    "7,90,1,2",
     "6,90,1,2"
   ],
   "PageInfo": {
@@ -2357,4 +2265,4 @@
       "Right": 25
     }
   }
-}//W2gWXVBdBvLuqCbdCKhPMWyVr1p9mKx6K9rIUaZAhxb3liJ+yrGJtl3nP7mV/BxXmwhBHLzvkR8hb93HuCzv4qxYjhHq8u10u/mYt9YWXnjWHmBs8Q+7cxg8a+PLbQgteRDtwl07z9TbWK7emWYvfa5ka51ORMYyJMQCHeAQt4Cb8uItx/BSLS9aXrSXCw5rVlyIBCAWdXcN86s9mt+zwXveSAq9Wv4BHYHgU2GktHCLYtB3iM/tEQyM8OIMxtR9uNqv5D6OroR+A89YWtB7+Yk/c28pcdES1k/oI4uBsdWVtg3VddVajCteNhzcAK8vGwtdyz68fUsj0JDz+UHvL94pjgHxj5ULUBQUxz2wdu49Zk8Kqcm9AJr5e711mv+78FDIQD3mlaIkguhnNIWw15S9YS0H3eeUuefuaH3v9ZTFwmRsIKhYzdugUdrYPY/HDjLbN8l1Y2I+cOFjUU/3UJk7L/fhkH4k0KhnLkhFkPNAg2quSH+XgtB4ou4ztDiUyg9W++hWr7WvJyGw1nY3/5fdPJRu2lEVWdGaRWiBqbAm7vVcv+rmp/RfVuGegAC4MoCbNTtewHbtWnRjnFU3LkRWqI2fZ5INi+Q576C0Br74J0EN/ArTLeg9ON5r1GFBbkfsbZOrnwEP67oIZRyNZLTM752810rw2x5gFpefqdRNbBdU55GZ2kZJm5CZ+DgkRhDcYZV+UDomCN2d8YNCqm3QetD+q23J5ZouwR4xmmpDym2v7dnq+Inite1/JqtXYEZpRG50+tg7FZ7NS7Ztavl3jtvodpNYp4XAnwElg6cXL4iwc/AGFst2vA+sYbdEX4uWhXWP742gN3N8DAKOfyRXTyBYFMsLQyFAJBEHlUB5+yniHB5wua4LLAAl4ymc+t2qyA8fPY3OjIvXutK41Q==|920
+}//VGy6+mJuGgX1TJBqlcuL5V+eRinew9k4awtEiMfKSfbiTpPkMYKyU/VJ3PuTWAQf/vT99b3P810i3hOuWtaGQaMRga3OTQq7r3Xfijwv7y1T64kmfxsgX9FHYxGP/KGlRIli8G7raZwUdS5N3fEJEKHWjtdR31R64nb/JAe3IQpoSEMKLXr+SX6wM16UGxIAnU9x41H676jwNQVfGExH/vuUuhkwKpcAET3Ml7wFjeLyJcmAnrDVvUpJ7XYXerW98f83CbV9zCPxhXqLQuKEICboUbQIMqd1dCtU8M2f5x/8Q+UbNClKDVSyyZtxCu9qQviXF1lJbtXsGy0xuTpuTbC7M+DgPNr043ach5pJu9l5SRHihmO50NR0v+b6Ix9rDOJxLh61c+Y/teUOrrNE22kHyCCLlS0o0aEuVAQJZ4WiN2VltKpKR/UGisR56thlYdvE67eP0a58jeOpxr+9T7nfagH+V9KqII41xsKck2imMLy8F0vBiAjxuW5ixsC7zJeX05RafN1VhkX36m885VZzT0S/ph4P/a1CPuTUxjpSUdGrDD9CYJMkjGIaDC7OY1PJkfKbdTchTgpoDQJ8j5OwC6M5A9W5swfkVgbmW78Sr36BjgU2k8QavABZ2zJIbUHnXTF+2c7nm2Nd+3nG1I2J75bEG7QPlHwqqb8jy9UwFZiLd6ugLovxwYoJQgDfI+vpZ/F1K8sr5ZU63y7KS44cBVo1DXWZimNoJHsEMVZA91WS5nXZKxWpCY4fmBGQ5VyYNvOOuCba0hK2vz4/PpANbD+d5pVWQYrsT9tblWhTDe3xOaTdukiVo+FJh8y44So2dMHL95oRYfQdI8RulWf+FMMzpb3JGVgcP+fgRkO8IYyysVl7k/z18aT7FzQ+mEo2GYnV7sY/97OotjSFLQ==|920
