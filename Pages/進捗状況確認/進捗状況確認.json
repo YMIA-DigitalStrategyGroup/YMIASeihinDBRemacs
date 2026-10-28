@@ -463,7 +463,7 @@
                     "ID": "27f96c243f2944e7843249be72814ca2"
                   }
                 ],
-                "ID": "ada2a30a-b2a5-4902-a65a-363c220c1404"
+                "ID": "aee2a8bb-61f1-48ac-85b3-3f5a04b0e9e4"
               },
               {
                 "Condition": {
@@ -514,7 +514,7 @@
                     "ID": "b7848cf991d148d6b089a4c6748da01a"
                   }
                 ],
-                "ID": "572cbd4c-7a28-4140-b8c2-de715763ce1b"
+                "ID": "d126336a-afe3-4588-b13f-fb6bec21e6f2"
               },
               {
                 "Condition": {
@@ -640,7 +640,7 @@
                     ]
                   }
                 ],
-                "ID": "bcf17b61-ea49-48cd-b294-1411d8b12c0c"
+                "ID": "ed26f203-bfc3-4d7f-b1eb-ff83257e1fb9"
               }
             ]
           }
@@ -976,7 +976,42 @@
                 }
               ]
             },
-            "ID": "65bf85f996ab4c21905e39747c286420"
+            "ID": "cc798a71b28a4738ae2564c7886bfde5",
+            "Disabled": true
+          },
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "ymia_v_seihindb_nyuka",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "ymia_v_seihindb_nyuka",
+                    "ColumnName": "KISHU",
+                    "GUID": "c21dc0f1-270e-4ddc-b9c7-3aa41d96187b"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=進捗状況確認!AV3"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "ymia_v_seihindb_nyuka",
+                    "ColumnName": "KIBAN",
+                    "GUID": "3c351858-cbac-4d5f-9b9d-e742f0518ffc"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=進捗状況確認!BA3"
+                  }
+                }
+              ]
+            },
+            "ID": "416dc6b6ed5e47ee8ffd567db2b484c5"
           },
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -1131,7 +1166,42 @@
                 }
               ]
             },
-            "ID": "7b7d2f2cb063441f9ab525225bca5f7e"
+            "ID": "4746f7caf0b64c70bc47b6b250d2199e",
+            "Disabled": true
+          },
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "ymia_v_seihindb_shukka",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "ymia_v_seihindb_shukka",
+                    "ColumnName": "KISHU",
+                    "GUID": "72c98e25-3a64-4650-892f-dc6acf9809c5"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=進捗状況確認!AV3"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "ymia_v_seihindb_shukka",
+                    "ColumnName": "KIBAN",
+                    "GUID": "71f37991-a0f5-423b-b0b4-93f206fc89eb"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=進捗状況確認!BA3"
+                  }
+                }
+              ]
+            },
+            "ID": "d83d50be697a44798ed4607a65694998"
           },
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -4416,4 +4486,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//Sria2yesU1w025uMON82zmN6LQT3P3FjxAXOJYuKW/jJRRg9G4eoqCHLLyu1kkNAnkM3UF4E91oq4KR2zJ0uL/8eukWTqy5IKuRyab3+zzgWMOe8dHyq99tNAA5EWeUXEKk3zmccJjMDX4jKIwkIzTkGJd3ndxTPwCMECOU3H3jIzdF9d8Z6T0RBC0H0tIlTk3zacbNVltRKrEQ3t9zxibSVx5JYWu9lEFDeYmE5ZlrXoHq0YOnoGP0qwAPtRYXycd6tTgvBBhvrqulAOACYFlX7iyr6CDFFPYweVk58o3X2YxbQhDK93m7kOVKFVIvf0b3l/sUprXsBqGbohqpX5nz5ligt/Jutvskxtv47POU5jZXrgwEyhUc/VpZRC2E/4jv77WkHwyD68Oh8vgVvxP/xvtSNK/EBzjT7imeGa+CSvGmaR+2PGDO6uK/oceV3Ul5HdZ7kjqxdtoO2ByyJz6d6ZyjB3WHH4aQmSxMPTiQgdHMy4PqM29sYhFsFWQPVG7jNrPlCmf7TntBPO8Tl/48H4gfHALU6Ny8s1cpivLSVF+s8ciqggbYagFKbvK8yNeT+9+YyYY1zFRqe7M97j4UX6dL1XMVpMWZirRxbDWtUrSH8YSyqUc2po1jLTOcBPMegvBOHjk2WjRZ+/bKxW8H374QNfqwrPLAMn9fIRrKschkR8bmry9/Goc1D3jCQ/GyFopb4ctzdm1uzx9yxXTVX4yWpKuc9/VZ1dKFxsemuTiqwnee05UD7Nv0VWkxE4tZLAb3D58HRE0Qyip5aK0HipDV564DmF5qMSIu6ApCrrVXGtUdYATiLoYxKOwn8dqHxkDj++zNu0K0Lfs4mZS9/r1GgwI6qnKPikpWDZt+sf9Fl/Hw6LN/84EiuNopDb+QFxA/F/pLP6IH4Sc8cgA==|920
+}//+1xxqp52fOHFWKZ+IvvDuwrGtVJ0IVwnQwvhOY2geMDEJZx7SLRjRnvAfVaEPSEchN3BNZUb85OHFsD8SZbY79DTBBBg7qMRpnu7nXFou/zHHf6UT1EDpl6V+fcrdBU+AeY4knB9H5blkV5W4ZD+WL2DiUekgn3bN4sEvVrvnmP3BrfpPaR6ATsphiyvfBaz+Lbzv6t7VgCJHbUS2tv4z2h6ULhaZ7aqCQa/X/2vYpRA6QOrAFt5TZoOoBrdBud9mPuaat83SMFNVhmlLtHXOOgEX2jvuM1/i8RX/ZVUi4BVwm7AFukNylMxTF6MmAKk/AbQopYVW71mXBVvMRn9uZ6yUibbpOoWhgP5bAae2cF4ZiR4V7lOgGkavWm8jln7/6nXr9dm9jlBXWvGC7kiOgDthIHzFTQJoDGaHUHqRqONGHjMPkxvRwco1ezbcnF4+BEYadK3b+dhxMS+ayuLB1GhcQs2Cu7G+AiEdPAdm/6/nun4aAyIQiYDbVY1b1QgaXJZP6GqtlY5JuRSbpYSYPcMPxq910opjyHmGcxF2i9tzbn1AlArC9LAvb+kon2DBXatqug5yQu5+FsCjuOz8k0PG6/lumEdFarC3rimLsZHJruT1wmNabDoXdsxC1M1FmgYsPcMBCc+OkPhptUIq4+Qx4oEbKxQk2bPByMhijtiY8+uH77wq9cHtMNGGmORj5qQZS5cNgVQvNExHyQkBwPOK+7mBBt2JI0cYP/u1mU3R8p6887o5fb7SZNP2ddJl5aVr8xXod8PHc0NV7YPPdODibFOw3grJmeUPkqf2KnK0uyY1M1Nnm4NZRxidewpP4s1XK+bUxJQ4LijTJTOCLS7bDlyjzWsTsIvsz7cdJ6X0oQ/cc/2qq6OdMoURCC/LfEDPRRteeFs55uH3l1J/g==|920
