@@ -591,5 +591,25 @@
     "ModuleName": "Table/ymia_v_seihindb",
     "ModuleType": 7,
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "TableView/ymia_v_seihindb_nyuka",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-10-28T14:16:09.684486+09:00",
+    "ModuleType": 23
+  },
+  {
+    "ModuleName": "TableView/ymia_v_seihindb_shukka",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-10-28T14:16:09.6845837+09:00",
+    "ModuleType": 23
   }
 ]
