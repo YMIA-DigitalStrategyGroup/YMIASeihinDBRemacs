@@ -337,17 +337,7 @@
   },
   {
     "ModuleName": "PCPage/進捗状況確認",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-10-05T16:14:59.5731375+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\進捗状況確認\\進捗状況確認.json",
-      "Pages\\進捗状況確認\\進捗状況確認.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/出荷予定情報",
@@ -355,17 +345,7 @@
   },
   {
     "ModuleName": "PCPage/出荷実績情報",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-10-06T15:20:17.5890868+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\出荷予定情報\\出荷実績情報.json",
-      "Pages\\出荷予定情報\\出荷実績情報.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/出荷予定情報",
@@ -594,22 +574,10 @@
   },
   {
     "ModuleName": "TableView/ymia_v_seihindb_nyuka",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-10-28T14:16:09.684486+09:00",
     "ModuleType": 23
   },
   {
     "ModuleName": "TableView/ymia_v_seihindb_shukka",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-10-28T14:16:09.6845837+09:00",
     "ModuleType": 23
   }
 ]
